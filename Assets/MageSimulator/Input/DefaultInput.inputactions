@@ -1,0 +1,33 @@
+{
+    "name": "DefaultInput",
+    "maps": [
+        {
+            "name": "PlayerDebug",
+            "id": "7d1c868c-3928-4f83-914f-bb251e675266",
+            "actions": [
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "982b9ea8-ee7a-471d-b494-71d0ea432e3d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8235c77e-d061-4f45-8119-e745310d025c",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

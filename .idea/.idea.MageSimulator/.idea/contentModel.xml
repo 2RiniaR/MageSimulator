@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\watan\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\watan\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MageSimulator.1257939256.00" t="ExcludeRecursive" />
+    <e p="C:\Users\watan\Projects\MageSimulator" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AllSkyFree" t="Include">
+          <e p="AllSkyFree_Menu.cs" t="Include" />
+          <e p="AllSkyFree_Readme.txt" t="Include" />
+        </e>
+        <e p="MageSimulator" t="Include">
+          <e p="Input" t="Include">
+            <e p="DefaultInput.cs" t="Include" />
+          </e>
+          <e p="MagicalStick" t="Include">
+            <e p="MagicalStick.cs" t="Include" />
+            <e p="MagicAttack.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="MainScene.cs" t="Include" />
+            <e p="Talk" t="Include">
+              <e p="TalkContent.cs" t="Include" />
+              <e p="TalkDisplay.cs" t="Include" />
+              <e p="TalkSection.cs" t="Include" />
+            </e>
+            <e p="Utils" t="Include">
+              <e p="AroundMover.cs" t="Include" />
+            </e>
+            <e p="WiimoteRotate.cs" t="Include" />
+          </e>
+          <e p="SoundRecognize" t="Include">
+            <e p="Recognizer.cs" t="Include" />
+            <e p="Record" t="Include">
+              <e p="IRecorder.cs" t="Include" />
+            </e>
+          </e>
+          <e p="SpellCast" t="Include">
+            <e p="ISpellCaster.cs" t="Include" />
+            <e p="Spell.cs" t="Include" />
+            <e p="SpellCastingEvaluate.cs" t="Include" />
+          </e>
+          <e p="Wiimote" t="Include">
+            <e p="Calibrator" t="Include">
+              <e p="AccelerometerCalibrator.cs" t="Include" />
+              <e p="WiimoteCalibratorBehaviour.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="WiimoteActivator.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="UniTask" t="Include">
+            <e p="Editor" t="Include">
+              <e p="SplitterGUILayout.cs" t="Include" />
+              <e p="UniTask.Editor.asmdef" t="Include" />
+              <e p="UniTaskTrackerTreeView.cs" t="Include" />
+              <e p="UniTaskTrackerWindow.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="_InternalVisibleTo.cs" t="Include" />
+              <e p="AsyncLazy.cs" t="Include" />
+              <e p="AsyncReactiveProperty.cs" t="Include" />
+              <e p="AsyncUnit.cs" t="Include" />
+              <e p="CancellationTokenEqualityComparer.cs" t="Include" />
+              <e p="CancellationTokenExtensions.cs" t="Include" />
+              <e p="CancellationTokenSourceExtensions.cs" t="Include" />
+              <e p="Channel.cs" t="Include" />
+              <e p="CompilerServices" t="Include">
+                <e p="AsyncMethodBuilderAttribute.cs" t="Include" />
+                <e p="AsyncUniTaskMethodBuilder.cs" t="Include" />
+                <e p="AsyncUniTaskVoidMethodBuilder.cs" t="Include" />
+                <e p="StateMachineRunner.cs" t="Include" />
+              </e>
+              <e p="EnumerableAsyncExtensions.cs" t="Include" />
+              <e p="EnumeratorAsyncExtensions.cs" t="Include" />
+              <e p="ExceptionExtensions.cs" t="Include" />
+              <e p="External" t="Include">
+                <e p="Addressables" t="Include">
+                  <e p="AddressablesAsyncExtensions.cs" t="Include" />
+                  <e p="UniTask.Addressables.asmdef" t="Include" />
+                </e>
+                <e p="DOTween" t="Include">
+                  <e p="DOTweenAsyncExtensions.cs" t="Include" />
+                  <e p="UniTask.DOTween.asmdef" t="Include" />
+                </e>
+                <e p="TextMeshPro" t="Include">
+                  <e p="TextMeshProAsyncExtensions.cs" t="Include" />
+                  <e p="TextMeshProAsyncExtensions.InputField.cs" t="Include" />
+                  <e p="UniTask.TextMeshPro.asmdef" t="Include" />
+                </e>
+              </e>
+              <e p="Internal" t="Include">
+                <e p="ArrayPool.cs" t="Include" />
+                <e p="ArrayPoolUtil.cs" t="Include" />
+                <e p="ArrayUtil.cs" t="Include" />
+                <e p="ContinuationQueue.cs" t="Include" />
+                <e p="DiagnosticsExtensions.cs" t="Include" />
+                <e p="Error.cs" t="Include" />
+                <e p="MinimumQueue.cs" t="Include" />
+                <e p="PlayerLoopRunner.cs" t="Include" />
+                <e p="PooledDelegate.cs" t="Include" />
+                <e p="RuntimeHelpersAbstraction.cs" t="Include" />
+                <e p="StatePool.cs" t="Include" />
+                <e p="TaskTracker.cs" t="Include" />
+                <e p="UnityEqualityComparer.cs" t="Include" />
+                <e p="UnityWebRequestExtensions.cs" t="Include" />
+                <e p="ValueStopwatch.cs" t="Include" />
+                <e p="WeakDictionary.cs" t="Include" />
+              </e>
+              <e p="IUniTaskAsyncEnumerable.cs" t="Include" />
+              <e p="IUniTaskSource.cs" t="Include" />
+              <e p="Linq" t="Include">
+                <e p="Aggregate.cs" t="Include" />
+                <e p="All.cs" t="Include" />
+                <e p="Any.cs" t="Include" />
+                <e p="AppendPrepend.cs" t="Include" />
+                <e p="AsUniTaskAsyncEnumerable.cs" t="Include" />
+                <e p="AsyncEnumeratorBase.cs" t="Include" />
+                <e p="Average.cs" t="Include" />
+                <e p="Buffer.cs" t="Include" />
+                <e p="Cast.cs" t="Include" />
+                <e p="CombineLatest.cs" t="Include" />
+                <e p="Concat.cs" t="Include" />
+                <e p="Contains.cs" t="Include" />
+                <e p="Count.cs" t="Include" />
+                <e p="Create.cs" t="Include" />
+                <e p="DefaultIfEmpty.cs" t="Include" />
+                <e p="Distinct.cs" t="Include" />
+                <e p="DistinctUntilChanged.cs" t="Include" />
+                <e p="Do.cs" t="Include" />
+                <e p="ElementAt.cs" t="Include" />
+                <e p="Empty.cs" t="Include" />
+                <e p="Except.cs" t="Include" />
+                <e p="First.cs" t="Include" />
+                <e p="ForEach.cs" t="Include" />
+                <e p="GroupBy.cs" t="Include" />
+                <e p="GroupJoin.cs" t="Include" />
+                <e p="Intersect.cs" t="Include" />
+                <e p="Join.cs" t="Include" />
+                <e p="Last.cs" t="Include" />
+                <e p="LongCount.cs" t="Include" />
+                <e p="Max.cs" t="Include" />
+                <e p="Min.cs" t="Include" />
+                <e p="MinMax.cs" t="Include" />
+                <e p="Never.cs" t="Include" />
+                <e p="OfType.cs" t="Include" />
+                <e p="OrderBy.cs" t="Include" />
+                <e p="Pairwise.cs" t="Include" />
+                <e p="Publish.cs" t="Include" />
+                <e p="Queue.cs" t="Include" />
+                <e p="Range.cs" t="Include" />
+                <e p="Repeat.cs" t="Include" />
+                <e p="Return.cs" t="Include" />
+                <e p="Reverse.cs" t="Include" />
+                <e p="Select.cs" t="Include" />
+                <e p="SelectMany.cs" t="Include" />
+                <e p="SequenceEqual.cs" t="Include" />
+                <e p="Single.cs" t="Include" />
+                <e p="Skip.cs" t="Include" />
+                <e p="SkipLast.cs" t="Include" />
+                <e p="SkipUntil.cs" t="Include" />
+                <e p="SkipUntilCanceled.cs" t="Include" />
+                <e p="SkipWhile.cs" t="Include" />
+                <e p="Subscribe.cs" t="Include" />
+                <e p="Sum.cs" t="Include" />
+                <e p="Take.cs" t="Include" />
+                <e p="TakeLast.cs" t="Include" />
+                <e p="TakeUntil.cs" t="Include" />
+                <e p="TakeUntilCanceled.cs" t="Include" />
+                <e p="TakeWhile.cs" t="Include" />
+                <e p="Throw.cs" t="Include" />
+                <e p="ToArray.cs" t="Include" />
+                <e p="ToDictionary.cs" t="Include" />
+                <e p="ToHashSet.cs" t="Include" />
+                <e p="ToList.cs" t="Include" />
+                <e p="ToLookup.cs" t="Include" />
+                <e p="ToObservable.cs" t="Include" />
+                <e p="ToUniTaskAsyncEnumerable.cs" t="Include" />
+                <e p="Union.cs" t="Include" />
+                <e p="UniTask.Linq.asmdef" t="Include" />
+                <e p="UnityExtensions" t="Include">
+                  <e p="EveryUpdate.cs" t="Include" />
+                  <e p="EveryValueChanged.cs" t="Include" />
+                  <e p="Timer.cs" t="Include" />
+                </e>
+                <e p="Where.cs" t="Include" />
+                <e p="Zip.cs" t="Include" />
+              </e>
+              <e p="MoveNextSource.cs" t="Include" />
+              <e p="PlayerLoopHelper.cs" t="Include" />
+              <e p="Progress.cs" t="Include" />
+              <e p="TaskPool.cs" t="Include" />
+              <e p="TriggerEvent.cs" t="Include" />
+              <e p="Triggers" t="Include">
+                <e p="AsyncAwakeTrigger.cs" t="Include" />
+                <e p="AsyncDestroyTrigger.cs" t="Include" />
+                <e p="AsyncStartTrigger.cs" t="Include" />
+                <e p="AsyncTriggerBase.cs" t="Include" />
+                <e p="AsyncTriggerExtensions.cs" t="Include" />
+                <e p="MonoBehaviourMessagesTriggers.cs" t="Include" />
+              </e>
+              <e p="UniTask.asmdef" t="Include" />
+              <e p="UniTask.Bridge.cs" t="Include" />
+              <e p="UniTask.cs" t="Include" />
+              <e p="UniTask.Delay.cs" t="Include" />
+              <e p="UniTask.Factory.cs" t="Include" />
+              <e p="UniTask.Run.cs" t="Include" />
+              <e p="UniTask.Threading.cs" t="Include" />
+              <e p="UniTask.WaitUntil.cs" t="Include" />
+              <e p="UniTask.WhenAll.cs" t="Include" />
+              <e p="UniTask.WhenAll.Generated.cs" t="Include" />
+              <e p="UniTask.WhenAny.cs" t="Include" />
+              <e p="UniTask.WhenAny.Generated.cs" t="Include" />
+              <e p="UniTaskCompletionSource.cs" t="Include" />
+              <e p="UniTaskExtensions.cs" t="Include" />
+              <e p="UniTaskExtensions.Shorthand.cs" t="Include" />
+              <e p="UniTaskObservableExtensions.cs" t="Include" />
+              <e p="UniTaskScheduler.cs" t="Include" />
+              <e p="UniTaskSynchronizationContext.cs" t="Include" />
+              <e p="UniTaskVoid.cs" t="Include" />
+              <e p="UnityAsyncExtensions.AssetBundleRequestAllAssets.cs" t="Include" />
+              <e p="UnityAsyncExtensions.AsyncGPUReadback.cs" t="Include" />
+              <e p="UnityAsyncExtensions.cs" t="Include" />
+              <e p="UnityAsyncExtensions.Jobs.cs" t="Include" />
+              <e p="UnityAsyncExtensions.MonoBehaviour.cs" t="Include" />
+              <e p="UnityAsyncExtensions.uGUI.cs" t="Include" />
+              <e p="UnityBindingExtensions.cs" t="Include" />
+              <e p="UnityWebRequestException.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Samples" t="Include">
+          <e p="Terrain Tools" t="Include">
+            <e p="0.1.0-preview" t="Include">
+              <e p="Terrain Assets" t="Include">
+                <e p="ThirdPartyNotices.txt" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Wiimote" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Enums.cs" t="Include" />
+            <e p="HIDapi.cs" t="Include" />
+            <e p="Internal" t="Include">
+              <e p="ReadOnlyArray.cs" t="Include" />
+              <e p="RegisterReadData.cs" t="Include" />
+            </e>
+            <e p="Wiimote.cs" t="Include" />
+            <e p="WiimoteData" t="Include">
+              <e p="AccelData.cs" t="Include" />
+              <e p="ButtonData.cs" t="Include" />
+              <e p="ClassicControllerData.cs" t="Include" />
+              <e p="IRData.cs" t="Include" />
+              <e p="MotionPlusData.cs" t="Include" />
+              <e p="NunchuckData.cs" t="Include" />
+              <e p="StatusData.cs" t="Include" />
+              <e p="WiimoteData.cs" t="Include" />
+              <e p="WiiUProData.cs" t="Include" />
+            </e>
+            <e p="WiimoteManager.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="MageSimulator.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="UniTask.Addressables.csproj" t="IncludeRecursive" />
+      <e p="UniTask.csproj" t="IncludeRecursive" />
+      <e p="UniTask.DOTween.csproj" t="IncludeRecursive" />
+      <e p="UniTask.Editor.csproj" t="IncludeRecursive" />
+      <e p="UniTask.Linq.csproj" t="IncludeRecursive" />
+      <e p="UniTask.TextMeshPro.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
