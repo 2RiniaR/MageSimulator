@@ -20,29 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="049c2eff-03e3-4a80-9541-7ad9826c1836" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicAttack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkContent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkContent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkDisplay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkSection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkSection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteActivator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteActivator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/Cold Sunset/Cold SunsetSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/Cold Sunset/Cold SunsetSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/StillDetector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/StillDetector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteRotation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteRotation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Utils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Utils/SingletonMonoBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Utils/SingletonMonoBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/StartScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Terrains/Main.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Terrains/Main.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/AccelerometerCalibrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/AccelerometerCalibrator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step3.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibrator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibrator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibrator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibrator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibratorBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibratorBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteActivator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteActivator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,15 +54,22 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../Unity-Wiimote/Assets/Scripts/WiimoteDemo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7F90ED7B-2CD3-4BC5-95F5-E9D084F29FE3/12/c631a270/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibratorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MageSimulator/Scripts/MainScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE84F4A7-54DA-4A6B-B64F-CA409D40938A/e8/c800490f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/AccelerometerCalibrator.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteActivator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Utils/SingletonMonoBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibratorBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/AccelerometerCalibrator.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/RotationAutoFixer.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/AutoRotationFixer.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/StillDetector.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteRotation.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteActivator.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lXlT1Ioic0EYxj5mfB9FBssDWa" />
@@ -123,8 +129,24 @@
       <workItem from="1608042769018" duration="100000" />
       <workItem from="1608042881141" duration="206000" />
       <workItem from="1608043099790" duration="1201000" />
-      <workItem from="1608050183960" duration="4003000" />
+      <workItem from="1608050183960" duration="4149000" />
+      <workItem from="1608097145863" duration="28872000" />
     </task>
+    <task id="LOCAL-00001" summary="wiiリモコンの校正用オブジェクトを追加するなどした">
+      <created>1608054621011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608054621013</updated>
+    </task>
+    <task id="LOCAL-00002" summary="wiiリモコンの校正用オブジェクトを追加するなどした">
+      <created>1608054645718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608054645718</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

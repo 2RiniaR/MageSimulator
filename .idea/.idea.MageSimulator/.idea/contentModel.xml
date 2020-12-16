@@ -17,6 +17,7 @@
           <e p="MagicalStick" t="Include">
             <e p="MagicalStick.cs" t="Include" />
             <e p="MagicAttack.cs" t="Include" />
+            <e p="SwingDetector.cs" t="Include" />
           </e>
           <e p="Scripts" t="Include">
             <e p="MainScene.cs" t="Include" />
@@ -44,10 +45,11 @@
           <e p="Wiimote" t="Include">
             <e p="Calibrator" t="Include">
               <e p="AccelerometerCalibrator.cs" t="Include" />
-              <e p="WiimoteCalibratorBehaviour.cs" t="Include" />
             </e>
             <e p="Scripts" t="Include">
+              <e p="StillDetector.cs" t="Include" />
               <e p="WiimoteActivator.cs" t="Include" />
+              <e p="WiimoteRotation.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -271,6 +273,9 @@
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
+        </e>
+        <e p="Utils" t="Include">
+          <e p="SingletonMonoBehaviour.cs" t="Include" />
         </e>
         <e p="Wiimote" t="Include">
           <e p="Scripts" t="Include">
