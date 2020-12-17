@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290c4ae0cf1e4977b14375e7a2379aa5, type: 3}
+  m_Name: BeforeBattle1_0
+  m_EditorClassIdentifier: 
+  contents:
+  - talker: "\u30B7\u30B9\u30C6\u30E0"
+    content: "\u6575\u304C\u51FA\u73FE\u3057\u307E\u3057\u305F\u3002"
+  - talker: "\u30B7\u30B9\u30C6\u30E0"
+    content: "\u30EA\u30E2\u30B3\u30F3\u3092\u7ACB\u3066\u3066\u3001A\u30DC\u30BF\u30F3\u3092\u62BC\u3057\u7D9A\u3051\u3066\u304F\u3060\u3055\u3044\u3002"

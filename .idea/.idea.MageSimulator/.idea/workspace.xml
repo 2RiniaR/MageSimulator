@@ -20,28 +20,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="049c2eff-03e3-4a80-9541-7ad9826c1836" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/StillDetector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/StillDetector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteRotation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteRotation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Utils.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Utils/SingletonMonoBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Utils/SingletonMonoBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrast/FireBrast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrast/FireBrast.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/hanazome SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/hanazome SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicAttack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicAttack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/AccelerometerCalibrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/AccelerometerCalibrator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/Animation/Step3.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibrator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibrator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibrator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibrator.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibratorBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Calibrator/WiimoteCalibratorBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteActivator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteActivator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkContent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkContent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkDisplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkSection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkSection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeStartBattle.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeStartBattle.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/UI.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +90,10 @@
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Wiimote/Scripts/WiimoteActivator.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/Magic.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrust/FireBrust.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrust/FireBrast.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrast/FireBrast.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lXlT1Ioic0EYxj5mfB9FBssDWa" />
@@ -130,7 +154,8 @@
       <workItem from="1608042881141" duration="206000" />
       <workItem from="1608043099790" duration="1201000" />
       <workItem from="1608050183960" duration="4149000" />
-      <workItem from="1608097145863" duration="28872000" />
+      <workItem from="1608097145863" duration="29346000" />
+      <workItem from="1608215763510" duration="498000" />
     </task>
     <task id="LOCAL-00001" summary="wiiリモコンの校正用オブジェクトを追加するなどした">
       <created>1608054621011</created>
@@ -146,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608054645718</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="回転の補正など">
+      <created>1608144946862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608144946862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +201,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="wiiリモコンの校正用オブジェクトを追加するなどした" />
-    <option name="LAST_COMMIT_MESSAGE" value="wiiリモコンの校正用オブジェクトを追加するなどした" />
+    <MESSAGE value="回転の補正など" />
+    <option name="LAST_COMMIT_MESSAGE" value="回転の補正など" />
   </component>
 </project>

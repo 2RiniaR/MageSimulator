@@ -4,6 +4,7 @@
     <e p="C:\Users\watan\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\watan\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MageSimulator.1257939256.00" t="ExcludeRecursive" />
     <e p="C:\Users\watan\Projects\MageSimulator" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AllSkyFree" t="Include">
@@ -15,17 +16,20 @@
             <e p="DefaultInput.cs" t="Include" />
           </e>
           <e p="MagicalStick" t="Include">
-            <e p="MagicalStick.cs" t="Include" />
-            <e p="MagicAttack.cs" t="Include" />
-            <e p="SwingDetector.cs" t="Include" />
+            <e p="Magics" t="Include">
+              <e p="FireBlast" t="Include">
+                <e p="FireBlast.cs" t="Include" />
+              </e>
+              <e p="Magic.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="MagicalStick.cs" t="Include" />
+              <e p="MagicAttack.cs" t="Include" />
+              <e p="SwingDetector.cs" t="Include" />
+            </e>
           </e>
           <e p="Scripts" t="Include">
             <e p="MainScene.cs" t="Include" />
-            <e p="Talk" t="Include">
-              <e p="TalkContent.cs" t="Include" />
-              <e p="TalkDisplay.cs" t="Include" />
-              <e p="TalkSection.cs" t="Include" />
-            </e>
             <e p="Utils" t="Include">
               <e p="AroundMover.cs" t="Include" />
             </e>
@@ -42,6 +46,13 @@
             <e p="Spell.cs" t="Include" />
             <e p="SpellCastingEvaluate.cs" t="Include" />
           </e>
+          <e p="Talk" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="TalkContent.cs" t="Include" />
+              <e p="TalkDisplay.cs" t="Include" />
+              <e p="TalkSection.cs" t="Include" />
+            </e>
+          </e>
           <e p="Wiimote" t="Include">
             <e p="Calibrator" t="Include">
               <e p="AccelerometerCalibrator.cs" t="Include" />
@@ -51,6 +62,21 @@
               <e p="WiimoteActivator.cs" t="Include" />
               <e p="WiimoteRotation.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="PinwheelFantasyEffect" t="Include">
+          <e p="README.txt" t="Include" />
+          <e p="Script" t="Include">
+            <e p="DemoManager.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CompileLogger.cs" t="Include" />
+              <e p="PolarisV2AdsWindow.cs" t="Include" />
+            </e>
+            <e p="FairyDustRandomPosition.cs" t="Include" />
+            <e p="FairyMeteorAddForceDemo.cs" t="Include" />
+            <e p="Fireball.cs" t="Include" />
+            <e p="Spin.cs" t="Include" />
+            <e p="Test.cs" t="Include" />
           </e>
         </e>
         <e p="Plugins" t="Include">
