@@ -20,12 +20,34 @@
               <e p="FireBlast" t="Include">
                 <e p="FireBlast.cs" t="Include" />
               </e>
+              <e p="LaserBeam" t="Include">
+                <e p="LaserBeam.cs" t="Include" />
+              </e>
               <e p="Magic.cs" t="Include" />
+              <e p="MeteorRain" t="Include">
+                <e p="MeteorRain.cs" t="Include" />
+              </e>
+              <e p="SoulCutter" t="Include">
+                <e p="SoulCutter.cs" t="Include" />
+              </e>
             </e>
             <e p="Scripts" t="Include">
               <e p="MagicalStick.cs" t="Include" />
               <e p="MagicAttack.cs" t="Include" />
               <e p="SwingDetector.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MicTest" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="MicVolumeChecker.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scenes" t="Include">
+            <e p="Start" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="StartScene.cs" t="Include" />
+                <e p="StartSceneEnterAnimationBehaviour.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Scripts" t="Include">

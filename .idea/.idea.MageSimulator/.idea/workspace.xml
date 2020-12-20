@@ -20,48 +20,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="049c2eff-03e3-4a80-9541-7ad9826c1836" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrast/FireBrast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrast/FireBrast.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Audio/AudioMixer.mixer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Audio/AudioMixer.mixer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/LaserBeam/LaserBeam.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/LaserBeam/LaserBeam.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/MeteorRain/MeteorRain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/MeteorRain/MeteorRain.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/SoulCutter/SoulCutter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/SoulCutter/SoulCutter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Materials/マイクアイコン.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Materials/マイクアイコン.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクテスト.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクテスト.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicVolumeChecker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicVolumeChecker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Textures/マイクアイコン.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Textures/マイクアイコン.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Textures/マイクボリュームゲージ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Textures/マイクボリュームゲージ.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/BeforeGameBackground.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/BeforeGameBackground/Global Volume Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/BeforeGameBackground/Global Volume Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/BeforeGameBackground/ゲーム前の背景.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/BeforeGameBackground/ゲーム前の背景.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/BeforeGameBackground/雪の地面.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/BeforeGameBackground/雪の地面.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/事前説明.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/事前説明.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Materials/タイトルフォント.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Materials/タイトルフォント.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Materials/操作説明フォント.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Materials/操作説明フォント.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Materials/魔法陣.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Materials/魔法陣.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Prefabs/表示.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Prefabs/表示.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Scripts/StartScene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Scripts/StartScene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Scripts/StartSceneEnterAnimationBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Scripts/StartSceneEnterAnimationBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/スタート画面.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/スタート画面.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/ゲーム前の録音.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/ゲーム前の録音.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/コントローラ設定.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/コントローラ設定.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/マイク設定.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/マイク設定.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/メインゲーム.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/メインゲーム.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/hanazome SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/hanazome SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicAttack.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicAttack.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Building.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Building.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Gold.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Gold.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Landscape.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Landscape.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Rock.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_Rock.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_SphereSkyReflect.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_SphereSkyReflect.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_TreeLeaves.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_TreeTrunk.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/AllSkyDemoEnv_TreeTrunk.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/Landscape.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/Landscape.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/TreeLeaves.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/TreeTrunk.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/TreeTrunk.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/rock.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/rock.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllSkyFree/Night MoonBurst/Night Moon BurstSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AllSkyFree/Night MoonBurst/Night Moon BurstSettings.lighting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Fonts/GenEiMGothic-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Fonts/GenEiMGothic-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Fonts/hanazome SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Fonts/hanazome SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicCircle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicCircle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/MagicalStick.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/SwingDetector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkContent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkContent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkDisplay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkDisplay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkSection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scripts/Talk/TalkSection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/AfterBattle3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle1/BeforeBattle1_2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeBattle3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeStartBattle.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Talk/BeforeStartBattle.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBlast/FireBlast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBlast/FireBlast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/MeteoRain.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/MeteorRain.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Materials/エッジ.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Materials/エッジ.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Materials/コア.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Materials/コア.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Materials/リング.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Materials/リング.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Materials/魔法陣.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Materials/魔法陣.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Models/MagicalStick.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Models/MagicalStick.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Rendering.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Rendering/Global Post-process Volume Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Rendering/Global Post-process Volume Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/StartScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/StartScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Terrains.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Terrains/Main.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Terrains/Main.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PinwheelFantasyEffect/Material/IceShard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PinwheelFantasyEffect/Material/IceShard.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PinwheelFantasyEffect/Material/MoonStone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PinwheelFantasyEffect/Material/MoonStone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PinwheelFantasyEffect/Material/SunStone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PinwheelFantasyEffect/Material/SunStone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PinwheelFantasyEffect/Model/Materials/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PinwheelFantasyEffect/Model/Materials/No Name.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/snow.terrainlayer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/snow.terrainlayer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,9 +168,21 @@
       <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrust/FireBrust.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrust/FireBrast.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBrast/FireBrast.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/MeteoRain/MeteoRain.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/MeteorRain/MeteoRain.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/FireBlast/FireBlast.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/LaserBeam/LaserBeam.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/MeteorRain/MeteorRain.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MagicalStick/Magics/SoulCutter/SoulCutter.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicVolumeChecker.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Scripts/StartScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Start/Scripts/StartSceneEnterAnimationBehaviour.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lXlT1Ioic0EYxj5mfB9FBssDWa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -104,6 +190,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34950384" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -155,7 +242,10 @@
       <workItem from="1608043099790" duration="1201000" />
       <workItem from="1608050183960" duration="4149000" />
       <workItem from="1608097145863" duration="29346000" />
-      <workItem from="1608215763510" duration="498000" />
+      <workItem from="1608215763510" duration="794000" />
+      <workItem from="1608278215275" duration="3079000" />
+      <workItem from="1608356253519" duration="605000" />
+      <workItem from="1608447898506" duration="5899000" />
     </task>
     <task id="LOCAL-00001" summary="wiiリモコンの校正用オブジェクトを追加するなどした">
       <created>1608054621011</created>
@@ -178,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608144946862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="今日はここまで">
+      <created>1608216479032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608216479032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,9 +296,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="wiiリモコンの校正用オブジェクトを追加するなどした" />
     <MESSAGE value="回転の補正など" />
-    <option name="LAST_COMMIT_MESSAGE" value="回転の補正など" />
+    <MESSAGE value="今日はここまで" />
+    <option name="LAST_COMMIT_MESSAGE" value="今日はここまで" />
   </component>
 </project>

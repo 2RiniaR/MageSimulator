@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/MageSimulator/Scenes/BeforeGameBackground/\u30B2\u30FC\u30E0\u524D\u306E\u80CC\u666F.unity"
+    guid: 36280ee530224164590782b227edc632
+  - enabled: 1
+    path: "Assets/MageSimulator/Scenes/Start/\u30B9\u30BF\u30FC\u30C8\u753B\u9762.unity"
+    guid: dc6ce91c69df279448d21fe431a140c5
+  - enabled: 1
+    path: "Assets/MageSimulator/Scenes/PriorExplanation/\u4E8B\u524D\u8AAC\u660E.unity"
+    guid: 2e5ea08b23ced354794e6e78a1b530dc
+  - enabled: 1
+    path: Assets/MageSimulator/Scenes/PriorExplanation/事前説明.unity
+    guid: 2e5ea08b23ced354794e6e78a1b530dc
   m_configObjects: {}
