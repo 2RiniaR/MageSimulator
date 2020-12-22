@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections;
+using MageSimulator.Utils;
+using MageSimulator.Utils.Scripts;
 using UnityEngine;
-using Utils;
 using WiimoteApi;
 
 namespace MageSimulator.Wiimote.Scripts

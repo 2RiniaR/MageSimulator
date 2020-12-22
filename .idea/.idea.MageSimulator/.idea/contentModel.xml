@@ -12,29 +12,33 @@
           <e p="AllSkyFree_Readme.txt" t="Include" />
         </e>
         <e p="MageSimulator" t="Include">
-          <e p="Input" t="Include">
-            <e p="DefaultInput.cs" t="Include" />
-          </e>
-          <e p="MagicalStick" t="Include">
-            <e p="Magics" t="Include">
-              <e p="FireBlast" t="Include">
-                <e p="FireBlast.cs" t="Include" />
+          <e p="Game" t="Include">
+            <e p="MagicalStick" t="Include">
+              <e p="Magics" t="Include">
+                <e p="FireBlast" t="Include">
+                  <e p="FireBlast.cs" t="Include" />
+                </e>
+                <e p="LaserBeam" t="Include">
+                  <e p="LaserBeam.cs" t="Include" />
+                </e>
+                <e p="Magic.cs" t="Include" />
+                <e p="MeteorRain" t="Include">
+                  <e p="MeteorRain.cs" t="Include" />
+                </e>
+                <e p="SoulCutter" t="Include">
+                  <e p="SoulCutter.cs" t="Include" />
+                </e>
               </e>
-              <e p="LaserBeam" t="Include">
-                <e p="LaserBeam.cs" t="Include" />
-              </e>
-              <e p="Magic.cs" t="Include" />
-              <e p="MeteorRain" t="Include">
-                <e p="MeteorRain.cs" t="Include" />
-              </e>
-              <e p="SoulCutter" t="Include">
-                <e p="SoulCutter.cs" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="MagicalStick.cs" t="Include" />
+                <e p="MagicAttack.cs" t="Include" />
+                <e p="SwingDetector.cs" t="Include" />
               </e>
             </e>
-            <e p="Scripts" t="Include">
-              <e p="MagicalStick.cs" t="Include" />
-              <e p="MagicAttack.cs" t="Include" />
-              <e p="SwingDetector.cs" t="Include" />
+            <e p="SpellCast" t="Include">
+              <e p="ISpellCaster.cs" t="Include" />
+              <e p="Spell.cs" t="Include" />
+              <e p="SpellCastingEvaluate.cs" t="Include" />
             </e>
           </e>
           <e p="MicTest" t="Include">
@@ -43,30 +47,27 @@
             </e>
           </e>
           <e p="Scenes" t="Include">
+            <e p="PriorExplanation" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Pages" t="Include">
+                  <e p="Page.cs" t="Include" />
+                  <e p="SimplePage.cs" t="Include" />
+                </e>
+                <e p="PriorExplanation.cs" t="Include" />
+              </e>
+            </e>
             <e p="Start" t="Include">
               <e p="Scripts" t="Include">
                 <e p="StartScene.cs" t="Include" />
-                <e p="StartSceneEnterAnimationBehaviour.cs" t="Include" />
+                <e p="StartSceneTransitionAnimationBehaviour.cs" t="Include" />
               </e>
             </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="MainScene.cs" t="Include" />
-            <e p="Utils" t="Include">
-              <e p="AroundMover.cs" t="Include" />
-            </e>
-            <e p="WiimoteRotate.cs" t="Include" />
           </e>
           <e p="SoundRecognize" t="Include">
             <e p="Recognizer.cs" t="Include" />
             <e p="Record" t="Include">
               <e p="IRecorder.cs" t="Include" />
             </e>
-          </e>
-          <e p="SpellCast" t="Include">
-            <e p="ISpellCaster.cs" t="Include" />
-            <e p="Spell.cs" t="Include" />
-            <e p="SpellCastingEvaluate.cs" t="Include" />
           </e>
           <e p="Talk" t="Include">
             <e p="Scripts" t="Include">
@@ -75,11 +76,20 @@
               <e p="TalkSection.cs" t="Include" />
             </e>
           </e>
+          <e p="Utils" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="SingletonMonoBehaviour.cs" t="Include" />
+            </e>
+          </e>
           <e p="Wiimote" t="Include">
             <e p="Calibrator" t="Include">
               <e p="AccelerometerCalibrator.cs" t="Include" />
             </e>
             <e p="Scripts" t="Include">
+              <e p="InputSystem" t="Include">
+                <e p="WiimoteDevice.cs" t="Include" />
+                <e p="WiimoteDeviceSupport.cs" t="Include" />
+              </e>
               <e p="StillDetector.cs" t="Include" />
               <e p="WiimoteActivator.cs" t="Include" />
               <e p="WiimoteRotation.cs" t="Include" />
@@ -321,9 +331,6 @@
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
-        </e>
-        <e p="Utils" t="Include">
-          <e p="SingletonMonoBehaviour.cs" t="Include" />
         </e>
         <e p="Wiimote" t="Include">
           <e p="Scripts" t="Include">
