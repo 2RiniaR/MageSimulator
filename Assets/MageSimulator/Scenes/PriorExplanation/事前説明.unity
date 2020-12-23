@@ -225,7 +225,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -278,8 +278,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 228300155}
-  moveToPreviousPageAnimatorTriggerName: MoveToPreviousPage
-  moveToNextPageAnimatorTriggerName: MoveToNextPage
+  firstPageStateName: 
+  lastPageStateName: 
   exitSceneAnimatorTriggerName: ExitScene
 --- !u!1001 &2651724452203352196
 PrefabInstance:
@@ -288,6 +288,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2651724450871917696, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2651724450887514609, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 579161999}
+    - target: {fileID: 2651724451040798429, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2651724451542700439, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2651724451695167993, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2651724451977610749, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
       propertyPath: m_Name
       value: "\u8868\u793A"
@@ -336,5 +356,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2651724452152884547, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372918799887859002, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372918799887859002, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8372918799887859005, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4e3c7b8b8d0da4046a7185b52a404ba2, type: 3}

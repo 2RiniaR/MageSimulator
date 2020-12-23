@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace MageSimulator.Scenes.PriorExplanation.Scripts
@@ -6,18 +7,14 @@ namespace MageSimulator.Scenes.PriorExplanation.Scripts
     public class PriorExplanation : MonoBehaviour
     {
         public Animator animator;
-        public string moveToPreviousPageAnimatorTriggerName;
-        public string moveToNextPageAnimatorTriggerName;
+        public string firstPageStateName;
+        public string lastPageStateName;
         public string exitSceneAnimatorTriggerName;
+        private Interactive.Interactive _interactive;
 
-        public void MoveToPreviousPage()
+        private void Start()
         {
-            animator.SetTrigger(moveToPreviousPageAnimatorTriggerName);
-        }
-
-        public void MoveToNextPage()
-        {
-            animator.SetTrigger(moveToNextPageAnimatorTriggerName);
+            _interactive = FindObjectOfType<Interactive.Interactive>();
         }
     }
 }
