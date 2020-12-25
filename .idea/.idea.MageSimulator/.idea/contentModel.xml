@@ -12,6 +12,11 @@
           <e p="AllSkyFree_Readme.txt" t="Include" />
         </e>
         <e p="MageSimulator" t="Include">
+          <e p="Config" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ApplicationSettings.cs" t="Include" />
+            </e>
+          </e>
           <e p="Game" t="Include">
             <e p="MagicalStick" t="Include">
               <e p="Magics" t="Include">
@@ -48,12 +53,15 @@
           </e>
           <e p="MicTest" t="Include">
             <e p="Scripts" t="Include">
+              <e p="MicDeviceSelector.cs" t="Include" />
+              <e p="MicDeviceSelectorItem.cs" t="Include" />
               <e p="MicVolumeChecker.cs" t="Include" />
             </e>
           </e>
           <e p="Scenes" t="Include">
             <e p="PriorExplanation" t="Include">
               <e p="Scripts" t="Include">
+                <e p="ItemSelectPage.cs" t="Include" />
                 <e p="PriorExplanation.cs" t="Include" />
               </e>
             </e>
@@ -78,6 +86,7 @@
             </e>
           </e>
           <e p="Utils" t="Include">
+            <e p="SceneTransitionBehaviour.cs" t="Include" />
             <e p="Scripts" t="Include">
               <e p="SingletonMonoBehaviour.cs" t="Include" />
             </e>

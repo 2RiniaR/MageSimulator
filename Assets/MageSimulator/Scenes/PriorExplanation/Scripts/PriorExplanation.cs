@@ -1,20 +1,37 @@
-﻿using System;
+﻿using MageSimulator.Config.Scripts;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace MageSimulator.Scenes.PriorExplanation.Scripts
 {
     public class PriorExplanation : MonoBehaviour
     {
-        public Animator animator;
-        public string firstPageStateName;
-        public string lastPageStateName;
-        public string exitSceneAnimatorTriggerName;
-        private Interactive.Interactive _interactive;
+        public ItemSelectPage confirmAllowRecordPage;
+        public Animator thanksForCooperatePageAnimator;
+        public string allowRecordingAnimatorParameterName;
+        private ApplicationSettings _applicationSettings;
 
         private void Start()
         {
-            _interactive = FindObjectOfType<Interactive.Interactive>();
+            _applicationSettings = Resources.Load<ApplicationSettings>("ApplicationSettings");
+            if (confirmAllowRecordPage != null)
+                confirmAllowRecordPage.onMoveToNext.AddListener(OnSubmitConfirmAllowRecord);
+        }
+
+        private void OnSubmitConfirmAllowRecord()
+        {
+            if (confirmAllowRecordPage == null)
+                return;
+
+            var allowRecording = confirmAllowRecordPage.selectingItem == 0;
+            if (_applicationSettings != null)
+            {
+                _applicationSettings.allowRecording = allowRecording;
+            }
+
+            if (allowRecordingAnimatorParameterName != null)
+            {
+                thanksForCooperatePageAnimator.SetBool(allowRecordingAnimatorParameterName, allowRecording);
+            }
         }
     }
 }

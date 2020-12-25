@@ -9,14 +9,20 @@ namespace MageSimulator.MicTest.Scripts
     {
         public Image volumeGauge;
         public float Volume { get; private set; }
+        private AudioSource _audioSource;
 
         private void Start () {
-            var audioSource = GetComponent<AudioSource>();
-            if (audioSource == null || Microphone.devices.Length <= 0) return;
-            var devName = Microphone.devices[0];
-            Microphone.GetDeviceCaps(devName, out var minFreq, out var maxFreq);
-            audioSource.clip = Microphone.Start(devName, true, 1, maxFreq);
-            audioSource.Play();
+            _audioSource = GetComponent<AudioSource>();
+        }
+
+        public void SetDevice(string deviceName)
+        {
+            if (_audioSource.isPlaying)
+                _audioSource.Stop();
+
+            Microphone.GetDeviceCaps(deviceName, out var minFreq, out var maxFreq);
+            _audioSource.clip = Microphone.Start(deviceName, true, 1, maxFreq);
+            _audioSource.Play();
         }
 
         private void OnAudioFilterRead(float[] data, int channels)
