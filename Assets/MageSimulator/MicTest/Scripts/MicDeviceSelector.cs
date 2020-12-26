@@ -24,17 +24,19 @@ namespace MageSimulator.MicTest.Scripts
         {
             selectAction.Enable();
             selectAction.performed += OnSelect;
+            Refresh();
+            SetSelectingDevice(selectingIndex);
         }
 
         private void OnDisable()
         {
             selectAction.performed -= OnSelect;
             selectAction.Disable();
+            selectingIndex = -1;
         }
 
         private void Start()
         {
-            Refresh();
         }
 
         private void Update()
@@ -81,20 +83,36 @@ namespace MageSimulator.MicTest.Scripts
         {
             if (_devices.Count == 0) return;
 
-            _listItems[selectingIndex].SetActive(false);
             var value = ctx.ReadValue<float>();
+            int deviceIndex;
             if (value < 0)
-                selectingIndex = (selectingIndex + (_devices.Count - 1)) % _devices.Count;
+                deviceIndex = (selectingIndex + (_devices.Count - 1)) % _devices.Count;
             else
-                selectingIndex = (selectingIndex + 1) % _devices.Count;
-            _listItems[selectingIndex].SetActive(true);
+                deviceIndex = (selectingIndex + 1) % _devices.Count;
 
-            onDeviceChanged.Invoke(GetSelectingDevice());
+            SetSelectingDevice(deviceIndex);
         }
 
         public string GetSelectingDevice()
         {
             return _devices.Count <= selectingIndex || selectingIndex < 0 ? null : _devices[selectingIndex];
+        }
+
+        public void SetSelectingDevice(string deviceName)
+        {
+            SetSelectingDevice(_devices.FindIndex(x => x == deviceName));
+        }
+
+        public void SetSelectingDevice(int deviceIndex)
+        {
+            if (_devices.Count <= deviceIndex || deviceIndex < 0 || selectingIndex == deviceIndex)
+                return;
+
+            if (0 <= selectingIndex && selectingIndex < _listItems.Count)
+                _listItems[selectingIndex].SetActive(false);
+            _listItems[deviceIndex].SetActive(true);
+            selectingIndex = deviceIndex;
+            onDeviceChanged.Invoke(GetSelectingDevice());
         }
     }
 }

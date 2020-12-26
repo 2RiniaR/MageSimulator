@@ -20,101 +20,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="049c2eff-03e3-4a80-9541-7ad9826c1836" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Config.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Config/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Config/Scripts/ApplicationSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Config/Scripts/ApplicationSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/デバイス名.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/デバイス名/デバイス名.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/デバイス名/デバイス名.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/デバイス名/選択中.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/デバイス名/選択中.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/デバイス名/非選択中.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/デバイス名/非選択中.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/デバイス名.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/デバイス名.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicDeviceSelector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicDeviceSelectorItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicDeviceSelectorItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/「許可しない」で決定.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/「許可しない」で決定.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/「許可しない」を選択中.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/「許可しない」を選択中.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/「許可する」で決定.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/「許可する」で決定.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/「許可する」を選択中.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/「許可する」を選択中.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/ページ5.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ5/ページ5.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/シーン遷移.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/シーン遷移/アイドル状態.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/シーン遷移/アイドル状態.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/シーン遷移/終了時.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/シーン遷移/終了時.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/シーン遷移/開始時.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/シーン遷移/開始時.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ1.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ1.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ2.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ2.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ3.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ3.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ4.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ4.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ5.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ5.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ6.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/ページ6.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/非表示.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/ページ/非表示.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/表示.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/表示.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Scripts/ItemSelectPage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Utils/SceneTransitionBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ApplicationSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ApplicationSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/マイクのゲイン設定.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/マイクのゲイン設定/マイクのゲイン設定.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/マイクのゲイン設定/マイクのゲイン設定.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/マイクのゲイン設定/倍率を増加させたとき.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/マイクのゲイン設定/倍率を増加させたとき.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/マイクのゲイン設定/倍率を減少させたとき.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Animations/マイクのゲイン設定/倍率を減少させたとき.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクのゲイン調整.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクのゲイン調整.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクの選択.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクの選択.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイク入力の音量インジケータ.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイク入力の音量インジケータ.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicGainSetter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicGainSetter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/シーン遷移.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/シーン遷移/アイドル状態.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/シーン遷移/アイドル状態.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/シーン遷移/終了時.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/シーン遷移/終了時.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/シーン遷移/開始時.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/シーン遷移/開始時.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/ページ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/ページ/ゲイン調整.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/ページ/ゲイン調整.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/ページ/入力デバイスの選択.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/ページ/入力デバイスの選択.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/ページ/非表示.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/ページ/非表示.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/表示.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Animations/表示/表示.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Prefabs/表示.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Prefabs/表示.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Scripts/MicDeviceSetup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Scripts/MicDeviceSetup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Scripts/MicGainSetup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Scripts/MicGainSetup.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Interactive/Page.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Interactive/Page.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクテスト.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクテスト.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクテスト.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/マイクテスト.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/入力デバイスリスト.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Prefabs/入力デバイスリスト.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicDeviceSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicDeviceSelector.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicVolumeChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicVolumeChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/InteractiveBase/Prefabs/フィールド.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/InteractiveBase/Prefabs/フィールド.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/InteractiveBase/ゲーム前の背景.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/InteractiveBase/ゲーム前の背景.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/マイク設定.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/マイク設定.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/シーン遷移.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/シーン遷移/アイドル状態.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/シーン遷移/アイドル状態.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/シーン遷移/終了時.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/シーン遷移/終了時.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/シーン遷移/開始時.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/シーン遷移/開始時.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ1.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ1.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ3.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ3.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ4.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ4.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ5.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/ページ5.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/非表示.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/ページ/非表示.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Prefabs/表示.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Prefabs/表示.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Scripts/PriorExplanation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Scripts/PriorExplanation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/事前説明.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/事前説明.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/表示.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Animations/表示/表示.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Utils/SceneTransitionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Utils/SceneTransitionBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ApplicationSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ApplicationSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,24 +82,27 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Controls/InputControlPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Scripts/ItemSelectPage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Scripts/MicGainSetup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Unity-Wiimote/Assets/Scripts/WiimoteDemo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MageSimulator/Utils/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7F90ED7B-2CD3-4BC5-95F5-E9D084F29FE3/12/c631a270/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Controls/InputControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Controls/ButtonControl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MageSimulator/Utils/SceneTransitionBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Devices/InputDeviceBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Devices/Keyboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Utilities/FourCC.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Devices/IInputUpdateCallbackReceiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Devices/Gamepad.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Scripts/ItemSelectPage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE84F4A7-54DA-4A6B-B64F-CA409D40938A/e8/c800490f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Controls/KeyControl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicDeviceSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE84F4A7-54DA-4A6B-B64F-CA409D40938A/13/5f868f2b/SpotLight.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Devices/InputDevice.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Unity-Wiimote/Assets/Scripts/WiimoteDemo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Devices/InputDeviceDescription.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE84F4A7-54DA-4A6B-B64F-CA409D40938A/0e/2ccbef20/Light.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Devices/ITextInputReceiver.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MageSimulator/Utils/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7F90ED7B-2CD3-4BC5-95F5-E9D084F29FE3/12/c631a270/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Controls/InputControl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Controls/ButtonControl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Devices/Pen.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Controls/AnyKeyControl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Devices/Mouse.cs" root0="SKIP_HIGHLIGHTING" />
@@ -188,12 +147,17 @@
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Interactive/Interactive.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Config/Scripts/ApplicationSetting.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Interactive/Page.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Utils/SceneTransitionBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Scripts/PriorExplanation.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/PriorExplanation/Scripts/ItemSelectPage.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Config/Scripts/ApplicationSettings.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicDeviceSelectorItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicVolumeSetter.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Utils/SceneTransitionBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Scripts/MicSetup.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Scripts/MicDeviceSetup.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/MicSetup/Scripts/MicGainSetup.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicVolumeChecker.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicGainSetter.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/MicTest/Scripts/MicDeviceSelector.cs" />
     </changedPaths>
   </component>
@@ -268,7 +232,8 @@
       <workItem from="1608561431992" duration="10725000" />
       <workItem from="1608653352513" duration="4432000" />
       <workItem from="1608713516078" duration="3254000" />
-      <workItem from="1608879519512" duration="17185000" />
+      <workItem from="1608879519512" duration="17962000" />
+      <workItem from="1608972473155" duration="11043000" />
     </task>
     <task id="LOCAL-00001" summary="wiiリモコンの校正用オブジェクトを追加するなどした">
       <created>1608054621011</created>

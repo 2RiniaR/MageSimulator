@@ -664,12 +664,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cfc32bdc8ac57b40a090bed29f26b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadScenesName:
-  - "\u30DE\u30A4\u30AF\u8A2D\u5B9A"
-  unloadScenesName:
-  - "\u4E8B\u524D\u8AAC\u660E"
-  activateStateName: "\u6B21\u306E\u30B7\u30FC\u30F3\u3078"
-  timing: 1
+  transitions:
+  - loadScenesName:
+    - "\u30B9\u30BF\u30FC\u30C8\u753B\u9762"
+    unloadScenesName:
+    - "\u4E8B\u524D\u8AAC\u660E"
+    activateStateName: "\u524D\u306E\u30B7\u30FC\u30F3\u3078"
+    timing: 1
+  - loadScenesName:
+    - "\u30DE\u30A4\u30AF\u8A2D\u5B9A"
+    unloadScenesName:
+    - "\u4E8B\u524D\u8AAC\u660E"
+    activateStateName: "\u6B21\u306E\u30B7\u30FC\u30F3\u3078"
+    timing: 1
 --- !u!1101 &-4346534509115732878
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1290,10 +1297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cfc32bdc8ac57b40a090bed29f26b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadScenesName: []
-  unloadScenesName: []
-  activateStateName: 
-  timing: 0
+  transitions: []
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -1724,10 +1728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cfc32bdc8ac57b40a090bed29f26b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadScenesName: []
-  unloadScenesName: []
-  activateStateName: 
-  timing: 0
+  transitions: []
 --- !u!1107 &3714749336060461508
 AnimatorStateMachine:
   serializedVersion: 5

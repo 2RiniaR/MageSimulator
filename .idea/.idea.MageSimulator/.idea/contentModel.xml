@@ -55,10 +55,17 @@
             <e p="Scripts" t="Include">
               <e p="MicDeviceSelector.cs" t="Include" />
               <e p="MicDeviceSelectorItem.cs" t="Include" />
+              <e p="MicGainSetter.cs" t="Include" />
               <e p="MicVolumeChecker.cs" t="Include" />
             </e>
           </e>
           <e p="Scenes" t="Include">
+            <e p="MicSetup" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MicDeviceSetup.cs" t="Include" />
+                <e p="MicGainSetup.cs" t="Include" />
+              </e>
+            </e>
             <e p="PriorExplanation" t="Include">
               <e p="Scripts" t="Include">
                 <e p="ItemSelectPage.cs" t="Include" />
@@ -68,7 +75,6 @@
             <e p="Start" t="Include">
               <e p="Scripts" t="Include">
                 <e p="StartScene.cs" t="Include" />
-                <e p="StartSceneTransitionAnimationBehaviour.cs" t="Include" />
               </e>
             </e>
           </e>

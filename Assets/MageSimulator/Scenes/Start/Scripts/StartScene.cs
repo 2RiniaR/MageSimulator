@@ -10,10 +10,16 @@ namespace MageSimulator.Scenes.Start.Scripts
         public string enterAnimatorTriggerName;
         public InputAction enterAction;
 
-        private void Start()
+        private void OnEnable()
         {
             enterAction.Enable();
             enterAction.performed += OnEnter;
+        }
+
+        private void OnDisable()
+        {
+            enterAction.performed -= OnEnter;
+            enterAction.Disable();
         }
 
         private void OnEnter(InputAction.CallbackContext ctx)

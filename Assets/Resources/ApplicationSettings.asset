@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: ApplicationSettings
   m_EditorClassIdentifier: 
   allowRecording: 0
+  audioInputDeviceName: 
+  audioInputGain: 1
