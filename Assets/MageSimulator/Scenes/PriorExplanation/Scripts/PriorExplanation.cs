@@ -1,4 +1,5 @@
 ﻿using MageSimulator.Config.Scripts;
+using MageSimulator.Interactive.Scripts;
 using UnityEngine;
 
 namespace MageSimulator.Scenes.PriorExplanation.Scripts

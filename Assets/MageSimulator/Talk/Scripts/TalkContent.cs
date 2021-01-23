@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace MageSimulator.Scripts.Talk
+namespace MageSimulator.Talk.Scripts
 {
     [Serializable]
     public struct TalkContent

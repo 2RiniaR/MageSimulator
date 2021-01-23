@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: "Assets/MageSimulator/Scenes/MicSetup/\u30DE\u30A4\u30AF\u8A2D\u5B9A.unity"
     guid: 4fa28f1d87a634a4a95d218a9f6f7b05
   - enabled: 1
-    path: "Assets/MageSimulator/Scenes/SilentSpeakRecord/\u30B2\u30FC\u30E0\u524D\u306E\u9332\u97F3.unity"
+    path: "Assets/MageSimulator/Scenes/PreRecord/\u4E8B\u524D\u9332\u97F3.unity"
     guid: 8b4db59889976fd47afc1f5ce361d774
   - enabled: 1
     path: "Assets/MageSimulator/Scenes/ControllerSetup/\u30B3\u30F3\u30C8\u30ED\u30FC\u30E9\u8A2D\u5B9A.unity"
@@ -38,4 +38,5 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/MageSimulator/Scenes/GameResult/\u30B2\u30FC\u30E0\u7D50\u679C.unity"
     guid: f9353a5e96ebab6459b4aa7463b17298
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 39450bd437fa56a4ea58fa91fa88c342, type: 2}

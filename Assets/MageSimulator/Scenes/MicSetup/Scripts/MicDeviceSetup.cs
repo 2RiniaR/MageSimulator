@@ -1,5 +1,5 @@
 ﻿using MageSimulator.Config.Scripts;
-using MageSimulator.MicTest.Scripts;
+using MageSimulator.Mic.Scripts;
 using UnityEngine;
 
 namespace MageSimulator.Scenes.MicSetup.Scripts

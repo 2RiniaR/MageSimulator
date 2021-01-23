@@ -1,0 +1,6 @@
+-charconv utf-8 sjis
+-gram alltest
+-1pass
+-penalty1 -1.4
+-C hmm_ptm.jconf
+-inactivate

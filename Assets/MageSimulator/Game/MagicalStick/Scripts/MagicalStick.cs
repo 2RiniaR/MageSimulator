@@ -1,5 +1,5 @@
 ﻿using System;
-using MageSimulator.Wiimote.Scripts;
+// using MageSimulator.Wiimote.Scripts;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -34,6 +34,7 @@ namespace MageSimulator.MagicalStick
 
         private void Update()
         {
+            /*
             rotateObject.localRotation = WiimoteActivator.Instance.Rotation;
             animatorModel.animator.SetBool(animatorModel.isButtonPerformedParameterName,
                 WiimoteActivator.Instance.Wiimote.Button.a);
@@ -43,6 +44,7 @@ namespace MageSimulator.MagicalStick
             var currentStateHash = animatorModel.animator.GetCurrentAnimatorStateInfo(0).fullPathHash;
             if (currentStateHash == Animator.StringToHash("Base Layer.ReadyToShoot") && WiimoteActivator.Instance.Rotation.eulerAngles.x > 60f)
                 animatorModel.animator.SetTrigger(animatorModel.onStickSwungTriggerName);
+            */
         }
     }
 }
