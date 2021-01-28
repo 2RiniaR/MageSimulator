@@ -15,3 +15,5 @@ MonoBehaviour:
   allowRecording: 0
   audioInputDeviceName: 
   audioInputGain: 1
+  deviceType: 0
+  wiimotePid: 

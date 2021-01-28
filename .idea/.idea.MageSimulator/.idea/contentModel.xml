@@ -6,6 +6,7 @@
     <e p="C:\Users\watan\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\watan\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
     <e p="D:\Projects\MageSimulator" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -16,10 +17,32 @@
         </e>
         <e p="Archive" t="Include">
           <e p="AccelerometerCalibrator.cs" t="Include" />
+          <e p="MicGainSetter.cs" t="Include" />
+          <e p="MicSetup" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="MicDeviceSetup.cs" t="Include" />
+              <e p="MicGainSetup.cs" t="Include" />
+            </e>
+          </e>
           <e p="WiimoteActivator.cs" t="Include" />
           <e p="WiimoteRotation.cs" t="Include" />
         </e>
         <e p="MageSimulator" t="Include">
+          <e p="BrowserUI" t="Include">
+            <e p="Browser.cs" t="Include" />
+            <e p="BrowserComponent.cs" t="Include" />
+            <e p="BrowserEvent.cs" t="Include" />
+            <e p="IBrowserInitializer.cs" t="Include" />
+            <e p="ItemSelector.cs" t="Include" />
+            <e p="Link.cs" t="Include" />
+            <e p="LinkAnimator.cs" t="Include" />
+            <e p="LinkBrowserEvent.cs" t="Include" />
+            <e p="LinkInitializer.cs" t="Include" />
+            <e p="Page.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
+            <e p="SubmitBrowserEvent.cs" t="Include" />
+            <e p="SubmitInputAction.cs" t="Include" />
+          </e>
           <e p="Config" t="Include">
             <e p="Scripts" t="Include">
               <e p="ApplicationSettings.cs" t="Include" />
@@ -30,6 +53,29 @@
             <e p="Selector" t="Include">
               <e p="Scripts" t="Include">
                 <e p="ControllerSelector.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Wiimote" t="Include">
+              <e p="Calibrator" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="MotionDetector" t="Include">
+                    <e p="AccelAverage.cs" t="Include" />
+                    <e p="MotionDetector.cs" t="Include" />
+                    <e p="MotionType.cs" t="Include" />
+                    <e p="Step1MotionDetector.cs" t="Include" />
+                    <e p="Step2MotionDetector.cs" t="Include" />
+                    <e p="Step3MotionDetector.cs" t="Include" />
+                    <e p="Step4MotionDetector.cs" t="Include" />
+                  </e>
+                  <e p="WiimoteCalibrator.cs" t="Include" />
+                  <e p="WiimoteCalibratorStateMachineBehaviour.cs" t="Include" />
+                </e>
+              </e>
+              <e p="InputSystem" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="WiimoteDevice.cs" t="Include" />
+                  <e p="WiimoteDeviceSupport.cs" t="Include" />
+                </e>
               </e>
             </e>
           </e>
@@ -48,6 +94,11 @@
               <e p="JuliusInstance.cs" t="Include" />
               <e p="JuliusSetup.cs" t="Include" />
               <e p="SoundStatisticsHelper.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Fade" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Fade.cs" t="Include" />
             </e>
           </e>
           <e p="Game" t="Include">
@@ -79,45 +130,48 @@
               <e p="SpellCastingEvaluate.cs" t="Include" />
             </e>
           </e>
-          <e p="Interactive" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="Interactive.cs" t="Include" />
-              <e p="ItemSelectPage.cs" t="Include" />
-              <e p="Page.cs" t="Include" />
-              <e p="SimplePage.cs" t="Include" />
-            </e>
-          </e>
           <e p="Mic" t="Include">
-            <e p="Scripts" t="Include">
+            <e p="DeviceSelector" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MicDeviceSelector.cs" t="Include" />
+                <e p="MicDeviceSelectorItem.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Recorder" t="Include">
               <e p="AudioTestPlayer.cs" t="Include" />
               <e p="DebugMicRecordSetup.cs" t="Include" />
-              <e p="MicDeviceSelector.cs" t="Include" />
-              <e p="MicDeviceSelectorItem.cs" t="Include" />
-              <e p="MicGainSetter.cs" t="Include" />
               <e p="MicRecorder.cs" t="Include" />
-              <e p="MicVolumeChecker.cs" t="Include" />
+            </e>
+            <e p="VolumeMeter" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MicVolumeChecker.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Scenes" t="Include">
-            <e p="MicSetup" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="MicDeviceSetup.cs" t="Include" />
-                <e p="MicGainSetup.cs" t="Include" />
-              </e>
-            </e>
             <e p="PreRecord" t="Include">
               <e p="Scripts" t="Include">
                 <e p="PreRecordScene.cs" t="Include" />
               </e>
             </e>
-            <e p="PriorExplanation" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="PriorExplanation.cs" t="Include" />
+            <e p="Setup" t="Include">
+              <e p="Pages" t="Include">
+                <e p="SelectController" t="Include">
+                  <e p="SelectControllerPage.cs" t="Include" />
+                </e>
+                <e p="SelectMic" t="Include">
+                  <e p="SelectMicPage.cs" t="Include" />
+                </e>
               </e>
             </e>
-            <e p="Start" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="StartScene.cs" t="Include" />
+            <e p="StartMenu" t="Include">
+              <e p="Pages" t="Include">
+                <e p="Confirm" t="Include">
+                  <e p="ConfirmPage.cs" t="Include" />
+                </e>
+                <e p="ToNext" t="Include">
+                  <e p="ToNextPage.cs" t="Include" />
+                </e>
               </e>
             </e>
           </e>
@@ -130,33 +184,14 @@
           </e>
           <e p="Utils" t="Include">
             <e p="Scripts" t="Include">
+              <e p="AnimatorExtension.cs" t="Include" />
+              <e p="CancellationTokenSourceExtension.cs" t="Include" />
+              <e p="ItemSelector.cs" t="Include" />
               <e p="RandomValueGenerator.cs" t="Include" />
               <e p="RandomValueGeneratorEditor.cs" t="Include" />
               <e p="SceneTransitionBehaviour.cs" t="Include" />
               <e p="SingletonMonoBehaviour.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Wiimote" t="Include">
-            <e p="Calibrator" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="MotionDetector" t="Include">
-                  <e p="AccelAverage.cs" t="Include" />
-                  <e p="MotionDetector.cs" t="Include" />
-                  <e p="MotionType.cs" t="Include" />
-                  <e p="Step1MotionDetector.cs" t="Include" />
-                  <e p="Step2MotionDetector.cs" t="Include" />
-                  <e p="Step3MotionDetector.cs" t="Include" />
-                  <e p="Step4MotionDetector.cs" t="Include" />
-                </e>
-                <e p="WiimoteCalibrator.cs" t="Include" />
-                <e p="WiimoteCalibratorStateMachineBehaviour.cs" t="Include" />
-              </e>
-            </e>
-            <e p="InputSystem" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="WiimoteDevice.cs" t="Include" />
-                <e p="WiimoteDeviceSupport.cs" t="Include" />
-              </e>
+              <e p="WindowAnimator.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -212,6 +247,41 @@
           </e>
         </e>
         <e p="Plugins" t="Include">
+          <e p="generic-serializable-dictionary" t="Include">
+            <e p="Assets" t="Include">
+              <e p="Editor" t="Include">
+                <e p="GenericDictionaryPropertyDrawer.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Example.cs" t="Include" />
+                <e p="GenericDictionary.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="guid-based-reference" t="Include">
+            <e p="Assets" t="Include">
+              <e p="CrossSceneReference" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="GuidComponentDrawer.cs" t="Include" />
+                  <e p="GuidReferenceDrawer.cs" t="Include" />
+                </e>
+                <e p="Runtime" t="Include">
+                  <e p="GuidComponent.cs" t="Include" />
+                  <e p="GuidManager.cs" t="Include" />
+                  <e p="GuidReference.cs" t="Include" />
+                </e>
+                <e p="Samples" t="Include">
+                  <e p="LoadScenes.cs" t="Include" />
+                  <e p="TestCrossScene.cs" t="Include" />
+                </e>
+                <e p="Tests" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="GuidReferenceTests.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Julius" t="Include">
             <e p="Client" t="Include">
               <e p="Actions" t="Include">
@@ -269,6 +339,10 @@
               <e p="ServerActivator.cs" t="Include" />
               <e p="ServerSettings.cs" t="Include" />
             </e>
+          </e>
+          <e p="SceneUnit" t="Include">
+            <e p="SceneUnit.cs" t="Include" />
+            <e p="SceneUnitWindow.cs" t="Include" />
           </e>
           <e p="UniRx" t="Include">
             <e p="Scripts" t="Include">
@@ -725,49 +799,6 @@
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
-          <e p="Examples &amp; Extras" t="Include">
-            <e p="Fonts" t="Include">
-              <e p="Anton OFL.txt" t="Include" />
-              <e p="Bangers - OFL.txt" t="Include" />
-              <e p="Oswald-Bold - OFL.txt" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="Benchmark01.cs" t="Include" />
-              <e p="Benchmark01_UGUI.cs" t="Include" />
-              <e p="Benchmark02.cs" t="Include" />
-              <e p="Benchmark03.cs" t="Include" />
-              <e p="Benchmark04.cs" t="Include" />
-              <e p="CameraController.cs" t="Include" />
-              <e p="ChatController.cs" t="Include" />
-              <e p="DropdownSample.cs" t="Include" />
-              <e p="EnvMapAnimator.cs" t="Include" />
-              <e p="ObjectSpin.cs" t="Include" />
-              <e p="ShaderPropAnimator.cs" t="Include" />
-              <e p="SimpleScript.cs" t="Include" />
-              <e p="SkewTextExample.cs" t="Include" />
-              <e p="TeleType.cs" t="Include" />
-              <e p="TextConsoleSimulator.cs" t="Include" />
-              <e p="TextMeshProFloatingText.cs" t="Include" />
-              <e p="TextMeshSpawner.cs" t="Include" />
-              <e p="TMP_DigitValidator.cs" t="Include" />
-              <e p="TMP_ExampleScript_01.cs" t="Include" />
-              <e p="TMP_FrameRateCounter.cs" t="Include" />
-              <e p="TMP_PhoneNumberValidator.cs" t="Include" />
-              <e p="TMP_TextEventCheck.cs" t="Include" />
-              <e p="TMP_TextEventHandler.cs" t="Include" />
-              <e p="TMP_TextInfoDebugTool.cs" t="Include" />
-              <e p="TMP_TextSelector_A.cs" t="Include" />
-              <e p="TMP_TextSelector_B.cs" t="Include" />
-              <e p="TMP_UiFrameRateCounter.cs" t="Include" />
-              <e p="TMPro_InstructionOverlay.cs" t="Include" />
-              <e p="VertexColorCycler.cs" t="Include" />
-              <e p="VertexJitter.cs" t="Include" />
-              <e p="VertexShakeA.cs" t="Include" />
-              <e p="VertexShakeB.cs" t="Include" />
-              <e p="VertexZoom.cs" t="Include" />
-              <e p="WarpTextExample.cs" t="Include" />
-            </e>
-          </e>
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
           </e>

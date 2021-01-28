@@ -1,11 +1,12 @@
-﻿using MageSimulator.Config.Scripts;
+﻿using MageSimulator.BrowserUI;
+using MageSimulator.Config.Scripts;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 namespace MageSimulator.Controller.Selector.Scripts
 {
-    public class ControllerSelector : MonoBehaviour
+    public class ControllerSelector : BrowserComponent
     {
         public InputAction selectKeyboardAction;
         public InputAction selectWiimoteAction;

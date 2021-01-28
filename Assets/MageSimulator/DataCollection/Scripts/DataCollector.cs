@@ -2,6 +2,7 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using Julius;
+using MageSimulator.Mic.Recorder;
 using MageSimulator.Mic.Scripts;
 using UniRx;
 using UnityEngine;
