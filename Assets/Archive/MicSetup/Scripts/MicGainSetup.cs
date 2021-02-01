@@ -19,7 +19,7 @@ namespace MageSimulator.Scenes.MicSetup.Scripts
         private void OnEnable()
         {
             gainSetter.onRateChanged.AddListener(OnGainRateChanged);
-            volumeChecker.deviceName = _applicationSettings.audioInputDeviceName;
+            volumeChecker.deviceName.Value = _applicationSettings.audioInputDeviceName;
             volumeChecker.rate = _applicationSettings.audioInputGain;
         }
 

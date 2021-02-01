@@ -29,19 +29,30 @@
         </e>
         <e p="MageSimulator" t="Include">
           <e p="BrowserUI" t="Include">
-            <e p="Browser.cs" t="Include" />
             <e p="BrowserComponent.cs" t="Include" />
-            <e p="BrowserEvent.cs" t="Include" />
-            <e p="IBrowserInitializer.cs" t="Include" />
+            <e p="ChangePage.cs" t="Include" />
+            <e p="ClosePage.cs" t="Include" />
+            <e p="Events" t="Include">
+              <e p="BrowserEvent.cs" t="Include" />
+              <e p="ChangePageEvent.cs" t="Include" />
+              <e p="ClosePageEvent.cs" t="Include" />
+              <e p="FinishPageEvent.cs" t="Include" />
+              <e p="OpenPageEvent.cs" t="Include" />
+              <e p="OverEvent.cs" t="Include" />
+              <e p="SubmitEvent.cs" t="Include" />
+            </e>
+            <e p="Finish.cs" t="Include" />
             <e p="ItemSelector.cs" t="Include" />
-            <e p="Link.cs" t="Include" />
-            <e p="LinkAnimator.cs" t="Include" />
-            <e p="LinkBrowserEvent.cs" t="Include" />
-            <e p="LinkInitializer.cs" t="Include" />
+            <e p="OpenPage.cs" t="Include" />
+            <e p="Over.cs" t="Include" />
             <e p="Page.cs" t="Include" />
+            <e p="PageAnimator.cs" t="Include" />
+            <e p="PageCache.cs" t="Include" />
+            <e p="PageEventTrigger.cs" t="Include" />
+            <e p="PageTarget.cs" t="Include" />
             <e p="SceneLoader.cs" t="Include" />
-            <e p="SubmitBrowserEvent.cs" t="Include" />
-            <e p="SubmitInputAction.cs" t="Include" />
+            <e p="Submit.cs" t="Include" />
+            <e p="SubmitAnimator.cs" t="Include" />
           </e>
           <e p="Config" t="Include">
             <e p="Scripts" t="Include">
@@ -50,33 +61,22 @@
             </e>
           </e>
           <e p="Controller" t="Include">
-            <e p="Selector" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="ControllerSelector.cs" t="Include" />
-              </e>
-            </e>
             <e p="Wiimote" t="Include">
               <e p="Calibrator" t="Include">
                 <e p="Scripts" t="Include">
-                  <e p="MotionDetector" t="Include">
-                    <e p="AccelAverage.cs" t="Include" />
-                    <e p="MotionDetector.cs" t="Include" />
-                    <e p="MotionType.cs" t="Include" />
-                    <e p="Step1MotionDetector.cs" t="Include" />
-                    <e p="Step2MotionDetector.cs" t="Include" />
-                    <e p="Step3MotionDetector.cs" t="Include" />
-                    <e p="Step4MotionDetector.cs" t="Include" />
-                  </e>
+                  <e p="CalibrateStepPage.cs" t="Include" />
                   <e p="WiimoteCalibrator.cs" t="Include" />
-                  <e p="WiimoteCalibratorStateMachineBehaviour.cs" t="Include" />
                 </e>
               </e>
-              <e p="InputSystem" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="WiimoteDevice.cs" t="Include" />
-                  <e p="WiimoteDeviceSupport.cs" t="Include" />
-                </e>
+              <e p="MotionDetector" t="Include">
+                <e p="AccelAverage.cs" t="Include" />
+                <e p="MotionDetector.cs" t="Include" />
+                <e p="RestMotionDetector.cs" t="Include" />
+                <e p="SubmitMotionDetect.cs" t="Include" />
               </e>
+              <e p="WiimoteDevice.cs" t="Include" />
+              <e p="WiimoteDeviceSupport.cs" t="Include" />
+              <e p="WiimoteExtension.cs" t="Include" />
             </e>
           </e>
           <e p="DataCollection" t="Include">
@@ -99,6 +99,13 @@
           <e p="Fade" t="Include">
             <e p="Scripts" t="Include">
               <e p="Fade.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Fields" t="Include">
+            <e p="Start" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CrossSceneConstraint.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Game" t="Include">
@@ -148,30 +155,25 @@
               </e>
             </e>
           </e>
-          <e p="Scenes" t="Include">
-            <e p="PreRecord" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="PreRecordScene.cs" t="Include" />
+          <e p="PreRecord" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="PreRecordScene.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Setup" t="Include">
+            <e p="Pages" t="Include">
+              <e p="SelectController" t="Include">
+                <e p="SelectControllerPage.cs" t="Include" />
+              </e>
+              <e p="SelectMic" t="Include">
+                <e p="SelectMicPage.cs" t="Include" />
               </e>
             </e>
-            <e p="Setup" t="Include">
-              <e p="Pages" t="Include">
-                <e p="SelectController" t="Include">
-                  <e p="SelectControllerPage.cs" t="Include" />
-                </e>
-                <e p="SelectMic" t="Include">
-                  <e p="SelectMicPage.cs" t="Include" />
-                </e>
-              </e>
-            </e>
-            <e p="StartMenu" t="Include">
-              <e p="Pages" t="Include">
-                <e p="Confirm" t="Include">
-                  <e p="ConfirmPage.cs" t="Include" />
-                </e>
-                <e p="ToNext" t="Include">
-                  <e p="ToNextPage.cs" t="Include" />
-                </e>
+          </e>
+          <e p="StartMenu" t="Include">
+            <e p="Pages" t="Include">
+              <e p="ToNext" t="Include">
+                <e p="ToNextPage.cs" t="Include" />
               </e>
             </e>
           </e>
@@ -180,16 +182,19 @@
               <e p="TalkContent.cs" t="Include" />
               <e p="TalkDisplay.cs" t="Include" />
               <e p="TalkSection.cs" t="Include" />
+              <e p="TalkSubmitAction.cs" t="Include" />
             </e>
           </e>
           <e p="Utils" t="Include">
             <e p="Scripts" t="Include">
               <e p="AnimatorExtension.cs" t="Include" />
               <e p="CancellationTokenSourceExtension.cs" t="Include" />
+              <e p="ChildrenEventReceiver.cs" t="Include" />
+              <e p="FocusActivator.cs" t="Include" />
+              <e p="FocusDebugger.cs" t="Include" />
               <e p="ItemSelector.cs" t="Include" />
               <e p="RandomValueGenerator.cs" t="Include" />
               <e p="RandomValueGeneratorEditor.cs" t="Include" />
-              <e p="SceneTransitionBehaviour.cs" t="Include" />
               <e p="SingletonMonoBehaviour.cs" t="Include" />
               <e p="WindowAnimator.cs" t="Include" />
             </e>

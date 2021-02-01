@@ -3,47 +3,58 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using Cysharp.Threading.Tasks;
+using MageSimulator.BrowserUI.Events;
+using UniRx;
 using UnityEngine;
 
 namespace MageSimulator.BrowserUI
 {
+    [DisallowMultipleComponent]
     public abstract class BrowserComponent : MonoBehaviour
     {
-        private bool _initializeComponentFlag = false;
-        private bool _closePageFlag = false;
-        public Browser Browser { get; private set; }
+        private bool _initializeChildrenFlag = false;
+        private bool _finalizeFlag = false;
+        private readonly CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
+        private readonly AsyncSubject<Unit> _onStart = new AsyncSubject<Unit>();
 
-        /// <summary>
-        ///     コンポーネントが初期化されるときに実行される
-        ///     <para>親オブジェクトの OnInitializeComponent() よりも後に呼ばれることが保証される</para>
-        /// </summary>
-        protected virtual UniTask OnInitializeComponent(CancellationToken token = new CancellationToken())
+        protected virtual void Start()
         {
-            return UniTask.CompletedTask;
+            _cancellationTokenSource.CancelWith(this);
+            CheckInitializeOnStart();
+            _onStart.OnNext(Unit.Default);
+            _onStart.OnCompleted();
         }
 
-        /// <summary>
-        ///     ブラウザでページが閉じられるシグナルを受け取ったときに実行される
-        ///     <para>子オブジェクトの OnClosePage() よりも後に呼ばれることが保証される</para>
-        /// </summary>
-        /// <param name="source">シグナルを発行したコンポーネント</param>
-        protected virtual UniTask OnClosePage(Link source, CancellationToken token = new CancellationToken())
+        private void CheckInitializeOnStart()
         {
-            return UniTask.CompletedTask;
+            if (transform.parent == null)
+            {
+                Initialize();
+                return;
+            }
+            var parentComponent = transform.parent.GetComponentInParent<BrowserComponent>();
+            if (parentComponent == null || parentComponent._initializeChildrenFlag)
+                Initialize();
         }
 
-        public async UniTask InitializeComponent(Browser browser, CancellationToken token)
+        protected virtual void Initialize()
         {
-            if (_initializeComponentFlag) return;
-            _initializeComponentFlag = true;
-            Browser = browser;
+            InitializeChildren();
+        }
 
-            await OnInitializeComponent(token);
+        private async UniTask InitializeInternal(CancellationToken token = new CancellationToken())
+        {
+            await _onStart.ToUniTask(cancellationToken: token);
             if (token.IsCancellationRequested) return;
+            await UniTask.SwitchToMainThread(token);
+            Initialize();
+        }
 
-            var childrenComponents = SearchChildrenComponent(transform);
-            var initializerTasks = childrenComponents.Select(x => x.InitializeComponent(browser, token));
-            await UniTask.WhenAll(initializerTasks);
+        protected void InitializeChildren()
+        {
+            foreach (var comp in SearchChildrenComponent(transform))
+                comp.InitializeInternal(_cancellationTokenSource.Token).Forget();
+            _initializeChildrenFlag = true;
         }
 
         public static IEnumerable<BrowserComponent> SearchChildrenComponent(Transform current)
@@ -55,36 +66,28 @@ namespace MageSimulator.BrowserUI
             });
         }
 
-        protected async UniTask RequestClosePage(Link source, Action<Browser> onClose, CancellationToken token)
+        protected virtual void PassEvent(BrowserEvent e)
         {
-            if (_closePageFlag) return;
-            _closePageFlag = true;
+            PublishEvent(e);
+        }
 
-            await OnClosePage(source, token);
-            if (token.IsCancellationRequested) return;
-
-            var parent = transform.parent;
-            while (true)
+        private void PassEventInternal(BrowserEvent e)
+        {
+            if (_finalizeFlag) return;
+            if (e is FinishPageEvent)
             {
-                var browser = parent.GetComponent<Browser>();
-                if (browser != null)
-                {
-                    await browser.ClosePage();
-                    onClose(browser);
-                    return;
-                }
-
-                var components = parent.GetComponents<BrowserComponent>();
-                if (components != null && components.Length > 0)
-                {
-                    foreach (var comp in components)
-                        comp.RequestClosePage(source, onClose, token).Forget();
-                    return;
-                }
-
-                parent = parent.parent;
-                if (parent == null) return;
+                Debug.Log("Finalize: " + name);
+                _finalizeFlag = true;
             }
+            PassEvent(e);
+        }
+
+        protected void PublishEvent(BrowserEvent e)
+        {
+            if (transform.parent == null) return;
+            var parentComponent = transform.parent.GetComponentInParent<BrowserComponent>();
+            if (parentComponent == null) return;
+            parentComponent.PassEventInternal(e);
         }
     }
 }

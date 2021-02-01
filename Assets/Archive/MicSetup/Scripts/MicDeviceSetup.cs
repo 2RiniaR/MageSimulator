@@ -22,13 +22,13 @@ namespace MageSimulator.Scenes.MicSetup.Scripts
             deviceSelector.OnDeviceChanged.Subscribe(OnDeviceSelectChanged).AddTo(this);
             deviceSelector.SetSelectingDevice(_applicationSettings.audioInputDeviceName);
             volumeChecker.rate = _applicationSettings.audioInputGain;
-            volumeChecker.deviceName = _applicationSettings.audioInputDeviceName;
+            volumeChecker.deviceName.Value = _applicationSettings.audioInputDeviceName;
         }
 
         private void OnDeviceSelectChanged(string deviceName)
         {
             _applicationSettings.audioInputDeviceName = deviceName;
-            volumeChecker.deviceName = _applicationSettings.audioInputDeviceName;
+            volumeChecker.deviceName.Value = _applicationSettings.audioInputDeviceName;
         }
     }
 }

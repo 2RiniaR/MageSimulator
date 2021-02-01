@@ -46,7 +46,7 @@ namespace MageSimulator.Mic.DeviceSelector.Scripts
             Refresh();
         }
 
-        protected override async UniTask OnInitializeComponent(CancellationToken token = new CancellationToken())
+        protected override void Initialize()
         {
             Observable.FromEvent<InputAction.CallbackContext>(
                     h => selectAction.performed += h,
@@ -56,11 +56,13 @@ namespace MageSimulator.Mic.DeviceSelector.Scripts
                     if (_devices.Count == 0) return;
                     var value = ctx.ReadValue<float>();
                     if (value > 0)
-                        SetSelectingDevice((selectingIndex + (_devices.Count - 1)) % _devices.Count);
-                    else if (value < 0)
                         SetSelectingDevice((selectingIndex + 1) % _devices.Count);
+                    else if (value < 0)
+                        SetSelectingDevice((selectingIndex + (_devices.Count - 1)) % _devices.Count);
                 })
                 .AddTo(this);
+
+            InitializeChildren();
         }
 
         public void Refresh()

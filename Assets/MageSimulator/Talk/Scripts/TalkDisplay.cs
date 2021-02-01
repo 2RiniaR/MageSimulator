@@ -2,7 +2,6 @@
 using System.Collections;
 using TMPro;
 using UniRx;
-using UniRx.Triggers;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -81,7 +80,9 @@ namespace MageSimulator.Talk.Scripts
 
         public IEnumerator RunTalkSection(TalkSection section)
         {
-            _animator.SetBool(states.isDisplayTriggerName, true);
+            while (_animator == null) yield return null;
+
+                _animator.SetBool(states.isDisplayTriggerName, true);
             foreach (var content in section.contents)
                 yield return DisplayContent(content);
             _animator.SetBool(states.isDisplayTriggerName, false);

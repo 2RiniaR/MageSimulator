@@ -29,6 +29,7 @@ namespace MageSimulator.DataCollection.Components.SpeakIndicator.Scripts
             public string recordingStartedTriggerName;
             public string recognitionSucceedTriggerName;
             public string recognitionFailedTriggerName;
+            public string resetTriggerName;
         }
 
         public StateComposite states;
@@ -118,6 +119,11 @@ namespace MageSimulator.DataCollection.Components.SpeakIndicator.Scripts
 
                 _animator.SetTrigger(states.actionCanceledTriggerName);
             }
+        }
+
+        public void Reset()
+        {
+            _animator.SetTrigger(states.resetTriggerName);
         }
 
         private void OnRecordStarted()

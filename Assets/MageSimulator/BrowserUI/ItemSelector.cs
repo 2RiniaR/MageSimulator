@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
+using MageSimulator.BrowserUI.Events;
 using MageSimulator.Utils.Scripts;
 using UniRx;
 using UniRx.Triggers;
@@ -47,7 +48,7 @@ namespace MageSimulator.BrowserUI
             selectAction.Disable();
         }
 
-        protected override async UniTask OnInitializeComponent(CancellationToken token = new CancellationToken())
+        protected override void Initialize()
         {
             Observable.FromEvent<InputAction.CallbackContext>(
                     h => selectAction.performed += h,
@@ -59,15 +60,17 @@ namespace MageSimulator.BrowserUI
                     else if (value < 0) Decrement();
                 })
                 .AddTo(this);
+
+            InitializeChildren();
         }
 
-        protected override async UniTask OnClosePage(Link source, CancellationToken token = new CancellationToken())
+        protected override void PassEvent(BrowserEvent e)
         {
-            if (submitOnClose)
-                await Submit(token);
+            if (submitOnClose) Submit().Forget();
+            PublishEvent(e);
         }
 
-        private void Start()
+        protected override void Start()
         {
             _animator = GetComponent<Animator>();
             _stateMachine = _animator.GetBehaviour<ObservableStateMachineTrigger>();
@@ -78,6 +81,8 @@ namespace MageSimulator.BrowserUI
 
             SetValue(initialValue);
             _animator.SetTrigger(initializeAnimatorTriggerName);
+
+            base.Start();
         }
 
         public void SetValue(int value)
@@ -88,14 +93,14 @@ namespace MageSimulator.BrowserUI
                 _animator.SetInteger(selectAnimatorParameterName, CurrentValue);
         }
 
-        public async UniTask Submit(CancellationToken token = new CancellationToken())
+        public UniTask Submit(CancellationToken token = new CancellationToken())
         {
             _onSubmitted.OnNext(CurrentValue);
             if (_animator == null || string.IsNullOrEmpty(submitAnimation.animatorTriggerName))
-                return;
+                return UniTask.CompletedTask;
 
             _animator.SetTrigger(submitAnimation.animatorTriggerName);
-            await _stateMachine.CompleteOnAnimationFinish(
+            return _stateMachine.CompleteOnAnimationFinish(
                 _animator.GetLayerIndex(submitAnimation.animatorDestinationLayerName),
                 submitAnimation.animatorDestinationStateName, token);
         }
