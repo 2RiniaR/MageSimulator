@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36d886c2fe5f4785b51a19cc1a35cbb3, type: 3}
-  m_Name: PerformanceJudge
+  m_Script: {fileID: 11500000, guid: c62f3a19af88fb34391bde254f6ad5ab, type: 3}
+  m_Name: VoiceRecognitionControl
   m_EditorClassIdentifier: 
-  recorder: {fileID: 11400000, guid: 5756f7e7d714216489ce592a508ea216, type: 2}
-  threshold: 1
+  voiceRecognizer: {fileID: 11400000, guid: 219f41e3f475d5b48a022642b1853e8b, type: 2}

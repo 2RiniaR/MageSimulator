@@ -109,7 +109,7 @@
               <e p="Scripts" t="Include">
                 <e p="Animation" t="Include">
                   <e p="MagicAnimator.cs" t="Include" />
-                  <e p="MagicSignAnimator.cs" t="Include" />
+                  <e p="MagicCircle.cs" t="Include" />
                 </e>
                 <e p="Combo" t="Include">
                   <e p="MagicActionSubmit.cs" t="Include" />
@@ -151,6 +151,16 @@
             </e>
           </e>
           <e p="VoiceRecognition" t="Include">
+            <e p="Control" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Combo" t="Include">
+                  <e p="VoiceRecognitionControlEffect.cs" t="Include" />
+                  <e p="VoiceRecognitionControlSubmit.cs" t="Include" />
+                </e>
+                <e p="VoiceRecognitionControl.cs" t="Include" />
+                <e p="VoiceRecognitionControlAnimator.cs" t="Include" />
+              </e>
+            </e>
             <e p="Envelope" t="Include">
               <e p="JuliusGrammar.cs" t="Include" />
               <e p="JuliusInstance.cs" t="Include" />
@@ -158,15 +168,6 @@
             </e>
             <e p="Performance" t="Include">
               <e p="PerformanceJudge.cs" t="Include" />
-            </e>
-            <e p="SpeakIndicator" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="Combo" t="Include">
-                  <e p="SpeakSubmit.cs" t="Include" />
-                </e>
-                <e p="VoiceRecognitionControl.cs" t="Include" />
-                <e p="VoiceRecognitionRunner.cs" t="Include" />
-              </e>
             </e>
             <e p="VoiceRecognizer.cs" t="Include" />
           </e>

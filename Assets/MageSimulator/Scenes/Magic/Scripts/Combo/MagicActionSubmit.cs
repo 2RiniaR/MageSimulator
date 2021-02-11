@@ -1,6 +1,6 @@
 ﻿using MageSimulator.Combo.Components;
 using MageSimulator.Global.Input.Controller.Wiimote.MotionDetector;
-using MageSimulator.VoiceRecognition.SpeakIndicator.Scripts;
+using MageSimulator.VoiceRecognition.Control.Scripts.Combo;
 using UniRx;
 using UnityEngine;
 
@@ -12,7 +12,7 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
         public float voiceRecognitionMarginTime;
         public float motionDetectionMarginTime;
 
-        private VoiceRecognitionRunner _voiceRecognizer;
+        private VoiceRecognitionControlEffect _voiceRecognizer;
         private MotionDetector _motionDetector;
         private float _speakActiveTime = 0f;
         private float _motionActiveTime = 0f;
@@ -20,7 +20,7 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
 
         protected override void Start()
         {
-            _voiceRecognizer = GetComponentInParent<VoiceRecognitionRunner>();
+            _voiceRecognizer = GetComponentInParent<VoiceRecognitionControlEffect>();
             _motionDetector = GetComponent<MotionDetector>();
 
             _voiceRecognizer.OnSucceed

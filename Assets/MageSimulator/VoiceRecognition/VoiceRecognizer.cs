@@ -2,7 +2,6 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using Julius;
-using MageSimulator.Global.Mic;
 using MageSimulator.VoiceRecognition.Envelope;
 using MageSimulator.VoiceRecognition.Performance;
 using UniRx;
@@ -17,9 +16,6 @@ namespace MageSimulator.VoiceRecognition
 
         [Header("文章の解析")]
         public JuliusInstance instance;
-
-        [Header("録音")]
-        public MicRecorder recorder;
 
         [Header("演技の解析")]
         public PerformanceJudge checker;
@@ -60,7 +56,7 @@ namespace MageSimulator.VoiceRecognition
         ///     音声認識に成功した場合は、録音データ
         ///     失敗した場合は、null
         /// </returns>
-        public async UniTask<AudioClip> TryRecognize(Action onInputStarted = null, Action onInputFinished = null,
+        public async UniTask<bool> TryRecognize(Action onInputStarted = null, Action onInputFinished = null,
             CancellationToken token = new CancellationToken())
         {
             await _clientLock.WaitAsync(token);
@@ -69,11 +65,11 @@ namespace MageSimulator.VoiceRecognition
             {
                 // 録音を開始
                 await UniTask.SwitchToMainThread(token);
-                recorder.StartRecording();
+                checker.StartJudgeRecording();
 
                 // Juliusの音声入力開始を待つ
                 await WaitInputStart(token);
-                if (token.IsCancellationRequested) return null;
+                if (token.IsCancellationRequested) return false;
 
                 onInputStarted?.Invoke();
 
@@ -82,27 +78,20 @@ namespace MageSimulator.VoiceRecognition
 
                 // Juliusの音声入力終了を待つ
                 await finishRecordTask;
-                if (token.IsCancellationRequested) return null;
+                if (token.IsCancellationRequested) return false;
 
                 onInputFinished?.Invoke();
 
-                // 録音を終了・保持
-                recorder.StopRecording();
-                var recording = recorder.LastRecodingClip;
-
                 // 認識の成功・失敗のどちらかを待ち受ける
                 var isJuliusRecognitionSucceed = await recognitionTask;
-                if (token.IsCancellationRequested) return null;
+                if (token.IsCancellationRequested) return false;
 
-                // 認識成功ならば録音を返し、失敗なら繰り返す
-                if (!isJuliusRecognitionSucceed || !checker.Judge(recording)) return null;
-
-                return recording;
+                return isJuliusRecognitionSucceed && checker.StopJudgeRecording();
             }
             finally
             {
                 _clientLock.Release();
-                recorder.StopRecording();
+                checker.CancelJudgeRecording();
             }
         }
 

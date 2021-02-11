@@ -54,5 +54,12 @@ namespace MageSimulator.Global.Mic
 
             _isRecording.Value = false;
         }
+
+        public void CancelRecording()
+        {
+            if (!_isRecording.Value) return;
+            Microphone.End(deviceName);
+            _isRecording.Value = false;
+        }
     }
 }

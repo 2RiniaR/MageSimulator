@@ -144,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4390753989953165212}
   - component: {fileID: 1715661968809320016}
-  - component: {fileID: 8278279314735175494}
+  - component: {fileID: 4929283923263702159}
   m_Layer: 0
   m_Name: "\u97F3\u58F0\u5165\u529B\u6307\u793A"
   m_TagString: Untagged
@@ -192,7 +192,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8278279314735175494
+--- !u!114 &4929283923263702159
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,19 +201,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1287201139059327046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c62f3a19af88fb34391bde254f6ad5ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 691b6272eeab43eaa560685bb8da2483, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animatorTriggers:
-    setupCompletedTriggerName: CompleteSetup
-    readyTriggerName: Ready
-    canceledTriggerName: Cancel
-    recognitionStartedTriggerName: StartRecognition
-    recognitionSucceedTriggerName: SuccessRecognition
-    recognitionFailedTriggerName: FailRecognition
-    resetTriggerName: Reset
+    inactive: Inactive
+    setting: Setting
+    active: Active
+    ready: Ready
+    recognizing: Recognizing
+    failed: Failed
+    succeed: Succeed
   grammarText: {fileID: 7859678508063291433}
-  voiceRecognizer: {fileID: 11400000, guid: 219f41e3f475d5b48a022642b1853e8b, type: 2}
+  control: {fileID: 11400000, guid: 7d05d9093359bf84297986a5626ad66a, type: 2}
 --- !u!1 &2218580743856526856
 GameObject:
   m_ObjectHideFlags: 0

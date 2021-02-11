@@ -12,8 +12,6 @@ namespace MageSimulator.VoiceRecognition.Performance
         [Range(0f, 1f)]
         public float threshold;
 
-        public AudioClip baseAudioClip;
-
         public void StartJudgeRecording()
         {
             if (recorder.IsRecording) return;
@@ -25,6 +23,11 @@ namespace MageSimulator.VoiceRecognition.Performance
             if (!recorder.IsRecording) return false;
             recorder.StopRecording();
             return Judge(recorder.LastRecodingClip);
+        }
+
+        public void CancelJudgeRecording()
+        {
+            recorder.CancelRecording();
         }
 
         public bool Judge(AudioClip clip)

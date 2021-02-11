@@ -1,8 +1,7 @@
 ﻿using System;
 using MageSimulator.Combo.Effects;
-using MageSimulator.Combo.Events;
 using MageSimulator.Scenes.Magic.Scripts.Animation;
-using MageSimulator.VoiceRecognition.SpeakIndicator.Scripts;
+using UnityEngine.Serialization;
 
 namespace MageSimulator.Scenes.Magic.Scripts.Combo
 {
@@ -17,7 +16,7 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
         }
 
         public Trigger trigger;
-        public MagicSignAnimator activateSignAnimator;
+        [FormerlySerializedAs("activateSignAnimator")] public MagicCircle activateCircle;
 
         private MagicAnimator _animator;
 
@@ -34,9 +33,6 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
                 case Trigger.Activate:
                     Activate();
                     break;
-                case Trigger.Chanted:
-                    Chanted();
-                    break;
                 case Trigger.Fire:
                     Fire();
                     break;
@@ -50,26 +46,17 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
 
         private void Activate()
         {
-            _animator.SetMagicSign(activateSignAnimator);
-            _animator.MagicSignAnimator.SetActive(true);
-        }
-
-        private void Chanted()
-        {
-            if (_animator.MagicSignAnimator != null)
-                _animator.MagicSignAnimator.Chanted();
+            _animator.SetMagicSign(activateCircle);
         }
 
         private void Fire()
         {
-            if (_animator.MagicSignAnimator != null)
-                _animator.MagicSignAnimator.Fire();
+            if (_animator.MagicCircle != null)
+                _animator.MagicCircle.Fire();
         }
 
         private void Deactivate()
         {
-            if (_animator.MagicSignAnimator != null)
-                _animator.MagicSignAnimator.SetActive(false);
         }
     }
 }

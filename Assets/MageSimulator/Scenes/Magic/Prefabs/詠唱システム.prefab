@@ -15247,7 +15247,6 @@ GameObject:
   - component: {fileID: 2279438976979704420}
   - component: {fileID: 6049257061931692988}
   - component: {fileID: 4206990283263257997}
-  - component: {fileID: 6988281218295485752}
   m_Layer: 0
   m_Name: "\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3"
   m_TagString: Untagged
@@ -15313,28 +15312,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6988281218295485752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3356357268955533466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c62f3a19af88fb34391bde254f6ad5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animatorTriggers:
-    setupCompletedTriggerName: CompleteSetup
-    readyTriggerName: Ready
-    canceledTriggerName: Cancel
-    recognitionStartedTriggerName: StartRecognition
-    recognitionSucceedTriggerName: SuccessRecognition
-    recognitionFailedTriggerName: FailRecognition
-    resetTriggerName: Reset
-  grammarText: {fileID: 8439393131692558574}
-  voiceRecognizer: {fileID: 11400000, guid: 219f41e3f475d5b48a022642b1853e8b, type: 2}
 --- !u!1 &5198809266136772433
 GameObject:
   m_ObjectHideFlags: 0

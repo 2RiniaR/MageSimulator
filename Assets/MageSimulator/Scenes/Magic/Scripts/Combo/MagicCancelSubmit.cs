@@ -1,6 +1,5 @@
 ﻿using MageSimulator.Combo.Components;
 using MageSimulator.Global.Input.Controller.Wiimote.MotionDetector;
-using MageSimulator.VoiceRecognition.SpeakIndicator.Scripts;
 using UniRx;
 using UnityEngine.InputSystem;
 

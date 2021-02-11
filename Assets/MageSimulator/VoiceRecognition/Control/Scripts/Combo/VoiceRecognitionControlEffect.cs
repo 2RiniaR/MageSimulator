@@ -7,12 +7,13 @@ using MageSimulator.VoiceRecognition.Envelope;
 using UniRx;
 using UnityEngine;
 
-namespace MageSimulator.VoiceRecognition.SpeakIndicator.Scripts
+namespace MageSimulator.VoiceRecognition.Control.Scripts.Combo
 {
-    public class VoiceRecognitionRunner : ComboEffect
+    public class VoiceRecognitionControlEffect : ComboEffect
     {
         public JuliusGrammar grammar;
         public IObservable<Unit> OnSucceed => _onSucceed;
+
         private VoiceRecognitionControl _control;
         private readonly Subject<Unit> _onSucceed = new Subject<Unit>();
         private CancellationTokenSource _cancellationTokenSource;
@@ -44,6 +45,7 @@ namespace MageSimulator.VoiceRecognition.SpeakIndicator.Scripts
 
         public void Deactivate()
         {
+            Debug.Log($"[{GetType()}] Deactivate");
             _control.SetReady(false);
             _cancellationTokenSource?.Cancel();
         }
@@ -52,9 +54,8 @@ namespace MageSimulator.VoiceRecognition.SpeakIndicator.Scripts
         {
             while (true)
             {
-                await _control.RecognizeUntilSuccess(grammar, token);
+                await _control.RecognizeUntilSuccess(grammar, token).ContinueWith(() => _onSucceed.OnNext(Unit.Default));
                 if (token.IsCancellationRequested) return;
-                _onSucceed.OnNext(Unit.Default);
             }
         }
     }

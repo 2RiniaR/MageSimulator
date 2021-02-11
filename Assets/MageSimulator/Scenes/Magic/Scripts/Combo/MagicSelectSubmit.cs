@@ -1,5 +1,4 @@
-﻿using MageSimulator.Combo;
-using MageSimulator.Combo.Components;
+﻿using MageSimulator.Combo.Components;
 using MageSimulator.Global.Input.Controller.Wiimote.MotionDetector;
 using MageSimulator.Scenes.Magic.Scripts.Animation;
 using UniRx;

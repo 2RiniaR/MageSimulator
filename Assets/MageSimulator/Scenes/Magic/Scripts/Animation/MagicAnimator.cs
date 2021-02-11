@@ -30,7 +30,7 @@ namespace MageSimulator.Scenes.Magic.Scripts.Animation
 
         public ActiveMagicAnimatorComposite activeAnimations;
         public Transform magicSignParent;
-        public MagicSignAnimator MagicSignAnimator { get; private set; }
+        public MagicCircle MagicCircle { get; private set; }
 
         public void SetActiveAction(ActiveActionType type, bool isActive)
         {
@@ -55,11 +55,11 @@ namespace MageSimulator.Scenes.Magic.Scripts.Animation
             anim.animator.SetBool(anim.propertyName, isActive);
         }
 
-        public void SetMagicSign(MagicSignAnimator signAnimator)
+        public void SetMagicSign(MagicCircle circle)
         {
-            if (MagicSignAnimator != null)
-                Destroy(MagicSignAnimator.gameObject);
-            MagicSignAnimator = Instantiate(signAnimator, magicSignParent);
+            if (MagicCircle != null)
+                Destroy(MagicCircle.gameObject);
+            MagicCircle = Instantiate(circle, magicSignParent);
         }
     }
 }
