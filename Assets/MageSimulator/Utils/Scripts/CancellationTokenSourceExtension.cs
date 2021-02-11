@@ -3,15 +3,18 @@ using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.Triggers;
 using UnityEngine;
 
-public static class CancellationTokenSourceExtension
+namespace MageSimulator.Utils.Scripts
 {
-    public static void CancelWith(this CancellationTokenSource cts, Component component)
+    public static class CancellationTokenSourceExtension
     {
-        cts.CancelWith(component.gameObject);
-    }
+        public static void CancelWith(this CancellationTokenSource cts, Component component)
+        {
+            cts.CancelWith(component.gameObject);
+        }
 
-    public static void CancelWith(this CancellationTokenSource cts, GameObject gameObject)
-    {
-        gameObject.OnDestroyAsync().ContinueWith(cts.Cancel).Forget();
+        public static void CancelWith(this CancellationTokenSource cts, GameObject gameObject)
+        {
+            gameObject.OnDestroyAsync().ContinueWith(cts.Cancel).Forget();
+        }
     }
 }

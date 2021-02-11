@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290c4ae0cf1e4977b14375e7a2379aa5, type: 3}
+  m_Name: "\u4F1A\u8A714-1"
+  m_EditorClassIdentifier: 
+  contents:
+  - talker: "\u6559\u6388T"
+    content: "\u3048\uFF5E\u3053\u3053\u304C\u9B54\u6CD5\u8A60\u5531\u306E\u8A13\u7DF4\u5834\u3067\u3059\u3002"
+  - talker: "\u6559\u6388T"
+    content: "\u3068\u308A\u3042\u3048\u305A\u5BD2\u3044\u306E\u3067\u706B\u3092\u3064\u3051\u3066\u3082\u3089\u3063\u3066\u3044\u3044\u3067\u3059\u304B\u3002"
+  - talker: "\u6559\u6388T"
+    content: "\u307E\u305A\u3001\u6756\u3092\u80F8\u5143\u306B\u6301\u3063\u3066\u304D\u3066\u304F\u3060\u3055\u3044\u3002"

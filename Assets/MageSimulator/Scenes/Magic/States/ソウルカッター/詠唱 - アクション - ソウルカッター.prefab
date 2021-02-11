@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8450279017819944832
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1732187964908823934, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: grammar
+      value: 
+      objectReference: {fileID: 11400000, guid: a6823d3edc4242b459d866f7184935d3, type: 2}
+    - target: {fileID: 2466323645451864945, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: swingMagnitude
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466323645451864945, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: finishRotation.w
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466323645451864945, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: finishRotation.x
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466323645451864945, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: finishRollErrorLimit
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707313909631289787, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: args.target
+      value: 
+      objectReference: {fileID: 11400000, guid: 4e4ca6152b643614093b8fc4d994f4b6, type: 2}
+    - target: {fileID: 2707313909631289787, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: defaultArgs.target
+      value: 
+      objectReference: {fileID: 11400000, guid: 4e4ca6152b643614093b8fc4d994f4b6, type: 2}
+    - target: {fileID: 3747057054928171080, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: activateSignAnimator
+      value: 
+      objectReference: {fileID: 4252014259108551152, guid: 42af73859e80f6846a2094032364cb1b, type: 3}
+    - target: {fileID: 3879196110965867814, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: activateSignAnimator
+      value: 
+      objectReference: {fileID: 4252014259108551152, guid: 42af73859e80f6846a2094032364cb1b, type: 3}
+    - target: {fileID: 4717316381063402673, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_Name
+      value: "\u8A60\u5531 - \u30A2\u30AF\u30B7\u30E7\u30F3 - \u30BD\u30A6\u30EB\u30AB\u30C3\u30BF\u30FC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717316381063402674, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: moveLimit
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: requireTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: stayAccel.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: stayRotation.w
+      value: 0.76604444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: stayRotation.x
+      value: 0.6427876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: enableMoveLimit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: enableRotationLimit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: activeCurrentDeviceOnStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306283088507756138, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: activateSignAnimator
+      value: 
+      objectReference: {fileID: 4252014259108551152, guid: 42af73859e80f6846a2094032364cb1b, type: 3}
+    - target: {fileID: 7535684473740541689, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: grammar
+      value: 
+      objectReference: {fileID: 11400000, guid: a6823d3edc4242b459d866f7184935d3, type: 2}
+    - target: {fileID: 9018699128277819321, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: action.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9018699128277819321, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 7bcd7d99-4093-44bc-b167-8dfa7de1394a
+      objectReference: {fileID: 0}
+    - target: {fileID: 9018699128277819321, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: action.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <WiimoteDevice>/B
+      objectReference: {fileID: 0}
+    - target: {fileID: 9018699128277819321, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: action.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Action
+      objectReference: {fileID: 0}
+    - target: {fileID: 9018699128277819321, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: action.m_SingletonActionBindings.Array.data[0].m_Interactions
+      value: Hold(duration=1E+09)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}

@@ -1,0 +1,49 @@
+STAT: jconf successfully finalized
+STAT: *** loading AM00 _default
+Stat: init_phmm: Reading in HMM definition
+Stat: read_binhmm: binary format HMM definition
+Stat: read_binhmm: this HMM does not need multipath handling
+Stat: init_phmm: defined HMMs:  7946
+Stat: init_phmm: loading ascii hmmlist
+Stat: init_phmm: logical names: 21424 in HMMList
+Stat: init_phmm: base phones:    43 used in logical
+Stat: init_phmm: finished reading HMM definitions
+STAT: making pseudo bi/mono-phone for IW-triphone
+Stat: hmm_lookup: 10 pseudo phones are added to logical HMM list
+STAT: *** AM00 _default loaded
+STAT: *** loading LM00 _default
+STAT: reading [alltest.dfa] and [alltest.dict]...
+Stat: init_voca: read 83 words
+Error: gzfile: unable to open alltest.dfa.forward
+Error: init_dfa: failed to open alltest.dfa.forward
+STAT: done
+STAT: Gram #0 alltest registered
+STAT: Gram #0 alltest: new grammar loaded, now mash it up for recognition
+STAT: Gram #0 alltest: extracting category-pair constraint for the 1st pass
+STAT: Gram #0 alltest: installed
+STAT: Gram #0 alltest: turn on active
+STAT: grammar update completed
+STAT: *** LM00 _default loaded
+STAT: ------
+STAT: All models are ready, go for final fusion
+STAT: [1] create MFCC extraction instance(s)
+STAT: *** create MFCC calculation modules from AM
+STAT: AM 0 _default: create a new module MFCC01
+STAT: 1 MFCC modules created
+STAT: [2] create recognition processing instance(s) with AM and LM
+STAT: composing recognizer instance SR00 _default (AM00 _default, LM00 _default)
+STAT: Building HMM lexicon tree
+STAT: lexicon size: 444+0=444
+STAT: coordination check passed
+STAT: multi-gram: beam width set to 200 (guess) by lexicon change
+STAT: wchmm (re)build completed
+STAT: SR00 _default composed
+STAT: [3] initialize for acoustic HMM calculation
+Stat: outprob_init: all mixture PDFs are tied-mixture, use calc_tied_mix()
+Stat: addlog: generating addlog table (size = 1953 kB)
+Stat: addlog: addlog table generated
+STAT: [4] prepare MFCC storage(s)
+STAT: [5] prepare for real-time decoding
+STAT: All init successfully done
+
+Stat: server-client: socket ready as server

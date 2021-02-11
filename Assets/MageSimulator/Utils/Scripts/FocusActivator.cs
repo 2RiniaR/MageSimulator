@@ -6,17 +6,16 @@ namespace MageSimulator.Utils.Scripts
     public class FocusActivator : MonoBehaviour
     {
         public GameObject target;
-        public bool activateOnAwake;
+        public bool activateOnStart;
 
-        private void Awake()
+        private void Start()
         {
-            if (activateOnAwake)
+            if (activateOnStart)
                 SetSelectingObject();
         }
 
         public void SetSelectingObject()
         {
-            Debug.Log("[FocusActivator] activated: " + target);
             EventSystem.current.SetSelectedGameObject(target);
         }
     }

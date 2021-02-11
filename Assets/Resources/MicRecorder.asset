@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be661985a540a8a5f43ff7b18256bd, type: 3}
   m_Name: MicRecorder
   m_EditorClassIdentifier: 
-  rate: 0
+  rate: 1
   maxDuration: 3000
   deviceName: 

@@ -15,174 +15,126 @@
           <e p="AllSkyFree_Menu.cs" t="Include" />
           <e p="AllSkyFree_Readme.txt" t="Include" />
         </e>
-        <e p="Archive" t="Include">
-          <e p="AccelerometerCalibrator.cs" t="Include" />
-          <e p="MicGainSetter.cs" t="Include" />
-          <e p="MicSetup" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="MicDeviceSetup.cs" t="Include" />
-              <e p="MicGainSetup.cs" t="Include" />
-            </e>
-          </e>
-          <e p="WiimoteActivator.cs" t="Include" />
-          <e p="WiimoteRotation.cs" t="Include" />
-        </e>
         <e p="MageSimulator" t="Include">
-          <e p="BrowserUI" t="Include">
-            <e p="BrowserComponent.cs" t="Include" />
-            <e p="ChangePage.cs" t="Include" />
-            <e p="ClosePage.cs" t="Include" />
+          <e p="Combo" t="Include">
+            <e p="Components" t="Include">
+              <e p="ChangePage.cs" t="Include" />
+              <e p="ClosePage.cs" t="Include" />
+              <e p="ComboComponent.cs" t="Include" />
+              <e p="EmptyComboComponent.cs" t="Include" />
+              <e p="Finish.cs" t="Include" />
+              <e p="InputActionSubmit.cs" t="Include" />
+              <e p="OpenPage.cs" t="Include" />
+              <e p="Page.cs" t="Include" />
+              <e p="PageAnimator.cs" t="Include" />
+              <e p="ReturnPage.cs" t="Include" />
+              <e p="SceneLoader.cs" t="Include" />
+              <e p="Submit.cs" t="Include" />
+              <e p="SubmitAnimator.cs" t="Include" />
+              <e p="TimerSubmit.cs" t="Include" />
+            </e>
+            <e p="Effects" t="Include">
+              <e p="ComboEffect.cs" t="Include" />
+              <e p="Focus.cs" t="Include" />
+            </e>
             <e p="Events" t="Include">
-              <e p="BrowserEvent.cs" t="Include" />
               <e p="ChangePageEvent.cs" t="Include" />
               <e p="ClosePageEvent.cs" t="Include" />
+              <e p="ComboEvent.cs" t="Include" />
               <e p="FinishPageEvent.cs" t="Include" />
               <e p="OpenPageEvent.cs" t="Include" />
-              <e p="OverEvent.cs" t="Include" />
+              <e p="ReturnPageEvent.cs" t="Include" />
               <e p="SubmitEvent.cs" t="Include" />
             </e>
-            <e p="Finish.cs" t="Include" />
-            <e p="ItemSelector.cs" t="Include" />
-            <e p="OpenPage.cs" t="Include" />
-            <e p="Over.cs" t="Include" />
-            <e p="Page.cs" t="Include" />
-            <e p="PageAnimator.cs" t="Include" />
-            <e p="PageCache.cs" t="Include" />
-            <e p="PageEventTrigger.cs" t="Include" />
-            <e p="PageTarget.cs" t="Include" />
-            <e p="SceneLoader.cs" t="Include" />
-            <e p="Submit.cs" t="Include" />
-            <e p="SubmitAnimator.cs" t="Include" />
-          </e>
-          <e p="Config" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="ApplicationSettings.cs" t="Include" />
-              <e p="ControllerDeviceType.cs" t="Include" />
+            <e p="Utils" t="Include">
+              <e p="PageCache.cs" t="Include" />
+              <e p="PageTarget.cs" t="Include" />
             </e>
           </e>
-          <e p="Controller" t="Include">
-            <e p="Wiimote" t="Include">
-              <e p="Calibrator" t="Include">
+          <e p="Global" t="Include">
+            <e p="Base" t="Include">
+              <e p="Fade" t="Include">
                 <e p="Scripts" t="Include">
-                  <e p="CalibrateStepPage.cs" t="Include" />
-                  <e p="WiimoteCalibrator.cs" t="Include" />
-                </e>
-              </e>
-              <e p="MotionDetector" t="Include">
-                <e p="AccelAverage.cs" t="Include" />
-                <e p="MotionDetector.cs" t="Include" />
-                <e p="RestMotionDetector.cs" t="Include" />
-                <e p="SubmitMotionDetect.cs" t="Include" />
-              </e>
-              <e p="WiimoteDevice.cs" t="Include" />
-              <e p="WiimoteDeviceSupport.cs" t="Include" />
-              <e p="WiimoteExtension.cs" t="Include" />
-            </e>
-          </e>
-          <e p="DataCollection" t="Include">
-            <e p="Components" t="Include">
-              <e p="SpeakIndicator" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="SpeakIndicator.cs" t="Include" />
+                  <e p="Fade.cs" t="Include" />
                 </e>
               </e>
             </e>
-            <e p="Scripts" t="Include">
-              <e p="AvailabilityChecker.cs" t="Include" />
-              <e p="DataCollector.cs" t="Include" />
-              <e p="JuliusGrammar.cs" t="Include" />
-              <e p="JuliusInstance.cs" t="Include" />
-              <e p="JuliusSetup.cs" t="Include" />
-              <e p="SoundStatisticsHelper.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Fade" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="Fade.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Fields" t="Include">
-            <e p="Start" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="CrossSceneConstraint.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Game" t="Include">
-            <e p="MagicalStick" t="Include">
-              <e p="Magics" t="Include">
-                <e p="FireBlast" t="Include">
-                  <e p="FireBlast.cs" t="Include" />
+            <e p="Input" t="Include">
+              <e p="Controller" t="Include">
+                <e p="Pages" t="Include">
+                  <e p="SelectType" t="Include">
+                    <e p="SelectControllerTypePage.cs" t="Include" />
+                  </e>
                 </e>
-                <e p="LaserBeam" t="Include">
-                  <e p="LaserBeam.cs" t="Include" />
-                </e>
-                <e p="Magic.cs" t="Include" />
-                <e p="MeteorRain" t="Include">
-                  <e p="MeteorRain.cs" t="Include" />
-                </e>
-                <e p="SoulCutter" t="Include">
-                  <e p="SoulCutter.cs" t="Include" />
+                <e p="Wiimote" t="Include">
+                  <e p="Calibrator" t="Include">
+                    <e p="Scripts" t="Include">
+                      <e p="CalibrateStepPage.cs" t="Include" />
+                      <e p="WiimoteCalibrator.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="MotionDetector" t="Include">
+                    <e p="AccelAverage.cs" t="Include" />
+                    <e p="Combo" t="Include">
+                      <e p="MotionDetectSubmit.cs" t="Include" />
+                    </e>
+                    <e p="MotionDetector.cs" t="Include" />
+                    <e p="RestMotionDetector.cs" t="Include" />
+                    <e p="SwingMotionDetector.cs" t="Include" />
+                  </e>
+                  <e p="WiimoteAction.cs" t="Include" />
+                  <e p="WiimoteDevice.cs" t="Include" />
+                  <e p="WiimoteDeviceSupport.cs" t="Include" />
+                  <e p="WiimoteExtension.cs" t="Include" />
+                  <e p="WiimoteRotator.cs" t="Include" />
                 </e>
               </e>
-              <e p="Scripts" t="Include">
-                <e p="MagicalStick.cs" t="Include" />
-                <e p="MagicAttack.cs" t="Include" />
-                <e p="SwingDetector.cs" t="Include" />
-              </e>
             </e>
-            <e p="SpellCast" t="Include">
-              <e p="ISpellCaster.cs" t="Include" />
-              <e p="Spell.cs" t="Include" />
-              <e p="SpellCastingEvaluate.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Mic" t="Include">
-            <e p="DeviceSelector" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="MicDeviceSelector.cs" t="Include" />
-                <e p="MicDeviceSelectorItem.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Recorder" t="Include">
-              <e p="AudioTestPlayer.cs" t="Include" />
-              <e p="DebugMicRecordSetup.cs" t="Include" />
+            <e p="Mic" t="Include">
+              <e p="MicDeviceSelector.cs" t="Include" />
+              <e p="MicGainSetter.cs" t="Include" />
               <e p="MicRecorder.cs" t="Include" />
+              <e p="VolumeMeter" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="MicVolumeMeter.cs" t="Include" />
+                </e>
+              </e>
             </e>
-            <e p="VolumeMeter" t="Include">
+            <e p="Setting" t="Include">
+              <e p="ApplicationSettings.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scenes" t="Include">
+            <e p="Magic" t="Include">
               <e p="Scripts" t="Include">
-                <e p="MicVolumeChecker.cs" t="Include" />
+                <e p="Animation" t="Include">
+                  <e p="MagicAnimator.cs" t="Include" />
+                  <e p="MagicSignAnimator.cs" t="Include" />
+                </e>
+                <e p="Combo" t="Include">
+                  <e p="MagicActionSubmit.cs" t="Include" />
+                  <e p="MagicAnimationEffect.cs" t="Include" />
+                  <e p="MagicCancelSubmit.cs" t="Include" />
+                  <e p="MagicSelectSubmit.cs" t="Include" />
+                </e>
               </e>
             </e>
-          </e>
-          <e p="PreRecord" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="PreRecordScene.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Setup" t="Include">
-            <e p="Pages" t="Include">
-              <e p="SelectController" t="Include">
-                <e p="SelectControllerPage.cs" t="Include" />
-              </e>
-              <e p="SelectMic" t="Include">
-                <e p="SelectMicPage.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="StartMenu" t="Include">
-            <e p="Pages" t="Include">
-              <e p="ToNext" t="Include">
-                <e p="ToNextPage.cs" t="Include" />
+            <e p="StartMenu" t="Include">
+              <e p="Pages" t="Include">
+                <e p="ToNext" t="Include">
+                  <e p="ToNextPage.cs" t="Include" />
+                </e>
               </e>
             </e>
           </e>
           <e p="Talk" t="Include">
             <e p="Scripts" t="Include">
+              <e p="Combo" t="Include">
+                <e p="TalkSubmit.cs" t="Include" />
+              </e>
+              <e p="Talk.cs" t="Include" />
               <e p="TalkContent.cs" t="Include" />
-              <e p="TalkDisplay.cs" t="Include" />
               <e p="TalkSection.cs" t="Include" />
-              <e p="TalkSubmitAction.cs" t="Include" />
             </e>
           </e>
           <e p="Utils" t="Include">
@@ -190,14 +142,33 @@
               <e p="AnimatorExtension.cs" t="Include" />
               <e p="CancellationTokenSourceExtension.cs" t="Include" />
               <e p="ChildrenEventReceiver.cs" t="Include" />
+              <e p="CrossSceneConstraint.cs" t="Include" />
               <e p="FocusActivator.cs" t="Include" />
-              <e p="FocusDebugger.cs" t="Include" />
-              <e p="ItemSelector.cs" t="Include" />
               <e p="RandomValueGenerator.cs" t="Include" />
               <e p="RandomValueGeneratorEditor.cs" t="Include" />
               <e p="SingletonMonoBehaviour.cs" t="Include" />
-              <e p="WindowAnimator.cs" t="Include" />
+              <e p="UniTaskExtension.cs" t="Include" />
             </e>
+          </e>
+          <e p="VoiceRecognition" t="Include">
+            <e p="Envelope" t="Include">
+              <e p="JuliusGrammar.cs" t="Include" />
+              <e p="JuliusInstance.cs" t="Include" />
+              <e p="JuliusSetup.cs" t="Include" />
+            </e>
+            <e p="Performance" t="Include">
+              <e p="PerformanceJudge.cs" t="Include" />
+            </e>
+            <e p="SpeakIndicator" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Combo" t="Include">
+                  <e p="SpeakSubmit.cs" t="Include" />
+                </e>
+                <e p="VoiceRecognitionControl.cs" t="Include" />
+                <e p="VoiceRecognitionRunner.cs" t="Include" />
+              </e>
+            </e>
+            <e p="VoiceRecognizer.cs" t="Include" />
           </e>
         </e>
         <e p="Packages" t="Include">
@@ -252,6 +223,9 @@
           </e>
         </e>
         <e p="Plugins" t="Include">
+          <e p="ContainClip" t="Include">
+            <e p="ContainClip.cs" t="Include" />
+          </e>
           <e p="generic-serializable-dictionary" t="Include">
             <e p="Assets" t="Include">
               <e p="Editor" t="Include">

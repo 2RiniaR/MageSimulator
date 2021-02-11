@@ -3,4 +3,4 @@
 -1pass
 -penalty1 -1.4
 -C hmm_ptm.jconf
--inactivate
+-inactive

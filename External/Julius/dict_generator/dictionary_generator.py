@@ -33,11 +33,27 @@ def generate_files(phrase, output_file_name="gram"):
 if __name__ == "__main__":
 
     # 入力する配列のサンプル
-    phrase1 = [
-        {
-            "text": "これは音声認識のテストです",
-            "sound": "これわおんせいにんしきのてすとです"
-        },
+    chant1 = [
+        { "text": "ファイア", "sound": "ふぁいあ" },
+        { "text": "ブラスト", "sound": "ぶらすと" },
     ]
 
-    generate_files(phrase1, "pre1")
+    chant2 = [
+        { "text": "レーザー", "sound": "れーざー" },
+        { "text": "ビーム", "sound": "びーむ" },
+    ]
+
+    chant3 = [
+        { "text": "ソウル", "sound": "そーる" },
+        { "text": "カッター", "sound": "かったー" },
+    ]
+
+    chant4 = [
+        { "text": "メテオ", "sound": "めてお" },
+        { "text": "レイン", "sound": "れいん" },
+    ]
+
+    # generate_files(chant1, "chant1")
+    # generate_files(chant2, "chant2")
+    generate_files(chant3, "chant3")
+    # generate_files(chant4, "chant4")

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: ApplicationSettings
   m_EditorClassIdentifier: 
   allowRecording: 0
-  audioInputDeviceName: 
-  audioInputGain: 1
-  deviceType: 0
-  wiimotePid: 
+  audioInputDeviceName:
+    value: 
+  audioInputGain:
+    value: 1
+  recordingSaveDirectoryPath: D:\projects\MageSimulator\Recordings
