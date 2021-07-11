@@ -1,5 +1,6 @@
 ﻿using MageSimulator.Combo.Components;
 using MageSimulator.Global.Input.Controller.Wiimote.MotionDetector;
+using MageSimulator.Scenes.Magic.Scripts.Animation;
 using MageSimulator.VoiceRecognition.Control.Scripts.Combo;
 using UniRx;
 using UnityEngine;
@@ -17,9 +18,11 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
         private float _speakActiveTime = 0f;
         private float _motionActiveTime = 0f;
         private readonly BoolReactiveProperty _inCondition = new BoolReactiveProperty(false);
+        private MagicAnimator _animator;
 
         protected override void Start()
         {
+            _animator = FindObjectOfType<MagicAnimator>();
             _voiceRecognizer = GetComponentInParent<VoiceRecognitionControlEffect>();
             _motionDetector = GetComponent<MotionDetector>();
 
@@ -44,6 +47,9 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
             _inCondition.Value = _speakActiveTime > 0f && _motionActiveTime > 0f;
             _speakActiveTime = Mathf.Max(0f, _speakActiveTime - Time.deltaTime);
             _motionActiveTime = Mathf.Max(0f, _motionActiveTime - Time.deltaTime);
+
+            if (_animator.MagicCircle)
+                _animator.MagicCircle.SetValid(_speakActiveTime > 0f);
         }
     }
 }

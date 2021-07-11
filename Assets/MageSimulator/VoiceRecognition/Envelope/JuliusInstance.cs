@@ -11,6 +11,7 @@ namespace MageSimulator.VoiceRecognition.Envelope
         public string juliusPath;
         public string jconfPath;
         public int port;
+        public bool debugShellExecute;
         public JuliusClient Client { get; private set; }
         private ServerActivator _server;
 
@@ -30,7 +31,7 @@ namespace MageSimulator.VoiceRecognition.Envelope
                 JuliusPath = juliusPath,
                 JconfPath = jconfPath,
                 Port = port,
-                DebugShellExecute = true
+                DebugShellExecute = debugShellExecute
             };
 
             _server.StartServer();

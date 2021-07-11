@@ -124,6 +124,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6306283088507756138, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: activateCircle
+      value: 
+      objectReference: {fileID: 4252014259108551152, guid: 42af73859e80f6846a2094032364cb1b, type: 3}
+    - target: {fileID: 6306283088507756138, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
       propertyPath: activateSignAnimator
       value: 
       objectReference: {fileID: 4252014259108551152, guid: 42af73859e80f6846a2094032364cb1b, type: 3}

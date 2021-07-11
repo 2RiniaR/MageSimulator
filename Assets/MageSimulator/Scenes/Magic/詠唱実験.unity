@@ -593,6 +593,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2186120549920904260, guid: 5a421860b747c0e40afe2540d14c16fa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4208294136797470330, guid: 5a421860b747c0e40afe2540d14c16fa, type: 3}
       propertyPath: stayRotation.w
       value: 0.76604444
@@ -713,5 +717,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6988281218295485752, guid: 5a421860b747c0e40afe2540d14c16fa, type: 3}
+    - {fileID: 4206990283263257997, guid: 5a421860b747c0e40afe2540d14c16fa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5a421860b747c0e40afe2540d14c16fa, type: 3}

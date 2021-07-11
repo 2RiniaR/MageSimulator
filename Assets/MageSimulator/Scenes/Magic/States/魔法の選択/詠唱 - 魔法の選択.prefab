@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 62905792782544180}
   - component: {fileID: 62905792782544179}
-  - component: {fileID: 4024626475609597377}
+  - component: {fileID: 2674257840606957561}
   m_Layer: 0
   m_Name: "\u8A60\u5531 - \u9B54\u6CD5\u306E\u9078\u629E"
   m_TagString: Untagged
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d04a66cb11b466d811cea19001a207a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4024626475609597377
+--- !u!114 &2674257840606957561
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -60,8 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35d83ad98be04c8fb5ace3a33ba43c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trigger: 3
-  activateSignAnimator: {fileID: 0}
+  trigger: 2
+  activateCircle: {fileID: 0}
 --- !u!1 &99522156520816522
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,10 +624,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeCurrentDeviceOnStart: 1
   stayAccel: {x: 0, y: -1, z: 0}
-  stayRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+  stayRotation: {x: -0.70710677, y: 0, z: 0, w: 0.70710677}
   enableRotationLimit: 1
-  pitchErrorLimit: 15
-  yawErrorLimit: 15
+  pitchErrorLimit: 30
+  yawErrorLimit: 30
   rollErrorLimit: 180
   enableMoveLimit: 0
   moveLimit: 1e+9

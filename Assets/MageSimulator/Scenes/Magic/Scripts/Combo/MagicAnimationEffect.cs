@@ -1,7 +1,6 @@
 ﻿using System;
 using MageSimulator.Combo.Effects;
 using MageSimulator.Scenes.Magic.Scripts.Animation;
-using UnityEngine.Serialization;
 
 namespace MageSimulator.Scenes.Magic.Scripts.Combo
 {
@@ -10,13 +9,12 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
         public enum Trigger
         {
             Activate,
-            Chanted,
             Fire,
-            Deactivate
+            Cancel
         }
 
         public Trigger trigger;
-        [FormerlySerializedAs("activateSignAnimator")] public MagicCircle activateCircle;
+        public MagicCircle activateCircle;
 
         private MagicAnimator _animator;
 
@@ -36,8 +34,8 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
                 case Trigger.Fire:
                     Fire();
                     break;
-                case Trigger.Deactivate:
-                    Deactivate();
+                case Trigger.Cancel:
+                    Cancel();
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
@@ -55,8 +53,10 @@ namespace MageSimulator.Scenes.Magic.Scripts.Combo
                 _animator.MagicCircle.Fire();
         }
 
-        private void Deactivate()
+        private void Cancel()
         {
+            if (_animator.MagicCircle != null)
+                _animator.MagicCircle.Cancel();
         }
     }
 }

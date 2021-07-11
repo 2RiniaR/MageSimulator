@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 0f9cd58a4ffa2e74db99149b23eedd80, type: 2}
     - target: {fileID: 2466323645451864945, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
       propertyPath: swingMagnitude
-      value: 0.5
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2466323645451864945, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
       propertyPath: finishRollErrorLimit
@@ -113,12 +113,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
       propertyPath: enableRotationLimit
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4892148822066053139, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
       propertyPath: activeCurrentDeviceOnStart
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6306283088507756138, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
+      propertyPath: activateCircle
+      value: 
+      objectReference: {fileID: 4252014259108551152, guid: 430c8ee4be44f0443bc1d9c369ec9c1a, type: 3}
     - target: {fileID: 6306283088507756138, guid: 4b6c73fdfbbac4647ad792b510bc9a6c, type: 3}
       propertyPath: activateSignAnimator
       value: 

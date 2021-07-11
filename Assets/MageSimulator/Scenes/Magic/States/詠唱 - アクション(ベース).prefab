@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: 0
-  activateSignAnimator: {fileID: 0}
+  activateCircle: {fileID: 0}
 --- !u!114 &1732187964908823934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,6 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grammar: {fileID: 0}
+  control: {fileID: 11400000, guid: 7d05d9093359bf84297986a5626ad66a, type: 2}
 --- !u!1 &7396903321057005054
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +301,7 @@ MonoBehaviour:
   args:
     name: 
   voiceRecognitionMarginTime: 2
-  motionDetectionMarginTime: 1
+  motionDetectionMarginTime: 2
 --- !u!114 &2466323645451864945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,4 +321,4 @@ MonoBehaviour:
   finishPitchErrorLimit: 15
   finishYawErrorLimit: 15
   finishRollErrorLimit: 90
-  finishMarginTime: 0
+  marginTime: 0

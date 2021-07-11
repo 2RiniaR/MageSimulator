@@ -1,36 +1,36 @@
-﻿using System;
-using TMPro;
-using UniRx;
-using UniRx.Triggers;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace MageSimulator.Scenes.Magic.Scripts.Animation
 {
     [RequireComponent(typeof(Animator))]
     public class MagicCircle : MonoBehaviour
     {
-        public TMP_Text chantText;
+        public string fireTriggerName = "Fire";
+        public string cancelTriggerName = "Cancel";
+        public string validFlagName = "Valid";
 
-        public string activeParameterName;
-        public string fireTriggerName;
-
-        [SerializeField] private Animator animator;
-        private ObservableStateMachineTrigger _stateMachine;
+        private Animator _animator;
 
         private void Start()
         {
-            _stateMachine = animator.GetBehaviour<ObservableStateMachineTrigger>();
-            _stateMachine.OnStateMachineExitAsObservable().Subscribe(_ => Destroy(gameObject)).AddTo(this);
-        }
-
-        public void SetChantText(string text)
-        {
-            chantText.text = text;
+            _animator = GetComponent<Animator>();
+            if (_animator == null)
+                Debug.LogWarning("Animator が存在しません");
         }
 
         public void Fire()
         {
-            animator.SetTrigger(fireTriggerName);
+            _animator.SetTrigger(fireTriggerName);
+        }
+
+        public void Cancel()
+        {
+            _animator.SetTrigger(cancelTriggerName);
+        }
+
+        public void SetValid(bool isValid)
+        {
+            _animator.SetBool(validFlagName, isValid);
         }
     }
 }

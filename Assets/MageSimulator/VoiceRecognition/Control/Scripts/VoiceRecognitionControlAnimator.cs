@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Threading;
-using Cysharp.Threading.Tasks;
-using MageSimulator.VoiceRecognition.Envelope;
 using TMPro;
 using UniRx;
 using UniRx.Triggers;
@@ -49,16 +46,12 @@ namespace MageSimulator.VoiceRecognition.Control.Scripts
         public VoiceRecognitionControl control;
 
         private Animator _animator;
-        private ObservableStateMachineTrigger _stateMachine;
 
         private void Awake()
         {
             _animator = GetComponent<Animator>();
-            _stateMachine = _animator.GetBehaviour<ObservableStateMachineTrigger>();
             if (_animator == null)
                 Debug.LogWarning("Animator が存在しません");
-            if (_stateMachine == null)
-                Debug.LogWarning("Animator に ObservableStateMachineTrigger が存在しません");
         }
 
         private void Start()

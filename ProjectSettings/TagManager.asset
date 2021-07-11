@@ -6,6 +6,7 @@ TagManager:
   tags:
   - "\u30B9\u30BF\u30FC\u30C8\u30E1\u30CB\u30E5\u30FC - \u58C1"
   - test
+  - Field
   layers:
   - Default
   - TransparentFX

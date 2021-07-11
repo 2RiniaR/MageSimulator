@@ -1,6 +1,5 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace MageSimulator.Scenes.Magic.Scripts.Animation
 {
@@ -18,7 +17,7 @@ namespace MageSimulator.Scenes.Magic.Scripts.Animation
         {
             public ActiveMagicAnimation buttonA;
             public ActiveMagicAnimation buttonB;
-            [FormerlySerializedAs("buttonAB")] public ActiveMagicAnimation buttonAb;
+            public ActiveMagicAnimation buttonAb;
         }
 
         public enum ActiveActionType
@@ -57,8 +56,6 @@ namespace MageSimulator.Scenes.Magic.Scripts.Animation
 
         public void SetMagicSign(MagicCircle circle)
         {
-            if (MagicCircle != null)
-                Destroy(MagicCircle.gameObject);
             MagicCircle = Instantiate(circle, magicSignParent);
         }
     }

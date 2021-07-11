@@ -20,99 +20,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="049c2eff-03e3-4a80-9541-7ad9826c1836" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/コントローラ入力待ち.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/コントローラ入力待ち.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/非起動.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/非起動.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声入力待ち.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声入力待ち.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声入力指示.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声入力指示.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声認識の準備中.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声認識の準備中.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声認識中.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声認識中.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声認識失敗.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声認識失敗.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声認識成功.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Animations/音声入力指示/音声認識成功.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Materials/GenEiMGothic-Regular SDF - 音声入力指示.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Materials/GenEiMGothic-Regular SDF - 音声入力指示.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Materials/hanazome SDF - 入力要求文章.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Materials/hanazome SDF - 入力要求文章.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Prefabs/音声入力指示.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Prefabs/音声入力指示.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControlAnimator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControlAnimator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Textures/円.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Textures/円.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/VoiceRecognitionControl.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/VoiceRecognitionControl.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/キャンセル.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/キャンセル.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - コントローラ入力待ち.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - コントローラ入力待ち.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 非起動.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 非起動.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声入力待ち.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声入力待ち.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声認識の準備中.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声認識の準備中.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声認識中.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声認識中.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声認識失敗.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声認識失敗.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声認識成功.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱システム - 音声認識成功.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Materials/呪文/呪文成功エフェクト.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Materials/呪文/呪文成功エフェクト.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/呪文.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/呪文.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法/魔法 - ソウルカッター.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法/魔法 - ソウルカッター.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法/魔法 - ファイアブラスト.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法/魔法 - ファイアブラスト.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法/魔法 - メテオレイン.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法/魔法 - メテオレイン.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法/魔法 - レーザービーム.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法/魔法 - レーザービーム.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicSpawnEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicSpawnEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/FireBlast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/FireBlast.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/LaserBeam.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/LaserBeam.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/Meteor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/Meteor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/MeteorRain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/MeteorRain.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/SoulCutter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/SoulCutter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Utils/Scripts/DestroyOnExitStateMachineBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Utils/Scripts/DestroyOnExitStateMachineBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Utils/Textures/呪文成功エフェクト.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MageSimulator/Utils/Textures/呪文成功エフェクト.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MageSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Global/Mic/MicRecorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Global/Mic/MicRecorder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectNegativeData/Pages/音声入力(ベース).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectNegativeData/Pages/音声入力(ベース).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectNegativeData/ネガティブデータの収集.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectNegativeData/ネガティブデータの収集.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Fields/Training/フィールド - 訓練場.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Fields/Training/フィールド - 訓練場.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Global/Base/ベース.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Global/Base/ベース.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/MotionDetector/SwingMotionDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/MotionDetector/SwingMotionDetector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - コントローラ入力待ち.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - コントローラ入力待ち.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 非起動.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 非起動.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声入力待ち.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声入力待ち.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声認識の準備中.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声認識の準備中.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声認識中.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声認識中.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声認識失敗.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声認識失敗.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声認識成功.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム - 音声認識成功.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/詠唱システム/詠唱システム.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/未起動.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/未起動.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱中.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/詠唱中.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/魔法陣.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/Animations/魔法陣/魔法陣.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/ポジティブデータの収集.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/CollectPositiveData/ポジティブデータの収集.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/詠唱システム.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/詠唱システム.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法陣/魔法陣 - ファイアブラスト.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法陣/魔法陣 - ファイアブラスト.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法陣/魔法陣(ベース).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Prefabs/魔法陣/魔法陣(ベース).prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicSignAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicCircle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicSignAnimator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicCircle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicCircle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicCircle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicActionSubmit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicActionSubmit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicAnimationEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicAnimationEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicCancelSubmit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicCancelSubmit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicSelectSubmit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicSelectSubmit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Performance/PerformanceJudge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Performance/PerformanceJudge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/コントローラ入力待ち.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/コントローラ入力待ち.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/非起動.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/非起動.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声入力待ち.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声入力待ち.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声入力指示.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声入力指示.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声認識の準備中.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声認識の準備中.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声認識中.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声認識中.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声認識失敗.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声認識失敗.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声認識成功.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Animations/音声入力指示/音声認識成功.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Materials/GenEiMGothic-Regular SDF - 音声入力指示.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Materials/GenEiMGothic-Regular SDF - 音声入力指示.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Materials/hanazome SDF - 入力要求文章.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Materials/hanazome SDF - 入力要求文章.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Prefabs/音声入力指示.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Prefabs/音声入力指示.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/Combo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/Combo/SpeakSubmit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlSubmit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/Combo/SpeakSubmit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlSubmit.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/VoiceRecognitionControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/VoiceRecognitionControl.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/VoiceRecognitionRunner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/VoiceRecognitionRunner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlEffect.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Textures/円.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Textures/円.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/VoiceRecognizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/VoiceRecognizer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceJudge.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PerformanceJudge.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/ソウルカッター/詠唱 - アクション - ソウルカッター.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/ソウルカッター/詠唱 - アクション - ソウルカッター.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/ファイアブラスト/詠唱 - アクション - ファイアブラスト.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/ファイアブラスト/詠唱 - アクション - ファイアブラスト.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/ファイアブラスト/詠唱 - 発動 - ファイアブラスト.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/ファイアブラスト/詠唱 - 発動 - ファイアブラスト.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/メテオレイン/詠唱 - アクション - メテオレイン.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/メテオレイン/詠唱 - アクション - メテオレイン.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/メテオレイン/詠唱 - 発動 - メテオレイン.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/メテオレイン/詠唱 - 発動 - メテオレイン.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/レーザービーム/詠唱 - アクション - レーザービーム.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/レーザービーム/詠唱 - アクション - レーザービーム.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/レーザービーム/詠唱 - 発動 - レーザービーム.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/レーザービーム/詠唱 - 発動 - レーザービーム.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/詠唱 - アクション(ベース).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/詠唱 - アクション(ベース).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/詠唱 - 発動(ベース).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/詠唱 - 発動(ベース).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/魔法の選択/詠唱 - 魔法の選択.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/States/魔法の選択/詠唱 - 魔法の選択.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/詠唱実験.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/詠唱実験.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControlAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControlAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Envelope/JuliusInstance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Envelope/JuliusInstance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,17 +189,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/MagicSelector.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/MotionDetector/AccelMotionDetector.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/MotionDetector/Combo/SubmitMotionDetect.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/MotionDetector/Combo/MotionDetectSubmit.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/MotionDetector/AccelAverage.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/MotionDetector/SwingMotionDetector.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/WiimoteDeviceSupport.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/WiimoteDevice.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Performance/PerformanceJudger.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Talk/Scripts/Talk.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicSignAnimator.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Combo/Effects/ComboEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Combo/Components/ComboComponent.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Combo/Components/Finish.cs" />
@@ -217,7 +210,6 @@
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/StartMenu/Pages/ToNext/ToNextPage.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Combo/Components/ChangePage.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Combo/Components/Page.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicAnimator.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/Combo/SpeakSubmit.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/VoiceRecognitionControl.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/VoiceRecognitionRunner.cs" />
@@ -225,17 +217,29 @@
       <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/Combo/VoiceRecognitionSubmit.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/SpeakIndicator/Scripts/Combo/VoiceRecognitionEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicCancelSubmit.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicActionSubmit.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicSelectSubmit.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlEffect.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicCircle.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicAnimationEffect.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControlAnimator.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlSubmit.cs" />
-      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControl.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/Global/Mic/MicRecorder.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Performance/PerformanceJudge.cs" />
       <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/VoiceRecognizer.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControl.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlSubmit.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Utils/Scripts/DestroyStateMachineBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Utils/Scripts/DestroyOnExitStateMachineBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicAnimator.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/Combo/VoiceRecognitionControlEffect.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Control/Scripts/VoiceRecognitionControlAnimator.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/VoiceRecognition/Envelope/JuliusInstance.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Animation/MagicCircle.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicActionSubmit.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Global/Input/Controller/Wiimote/MotionDetector/SwingMotionDetector.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicAnimationEffect.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/FireBrust.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/SoulCutter.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/MeteorRain.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/LaserBeam.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/Meteor.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Effects/FireBlast.cs" />
+      <option value="$PROJECT_DIR$/Assets/MageSimulator/Scenes/Magic/Scripts/Combo/MagicSpawnEffect.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lXlT1Ioic0EYxj5mfB9FBssDWa" />
@@ -261,10 +265,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16888">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16888" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -355,7 +359,13 @@
       <workItem from="1612681905758" duration="28367000" />
       <workItem from="1612752778614" duration="14279000" />
       <workItem from="1612771532959" duration="4410000" />
-      <workItem from="1613027640756" duration="22270000" />
+      <workItem from="1613027640756" duration="24121000" />
+      <workItem from="1613096880832" duration="9840000" />
+      <workItem from="1613355519074" duration="1000" />
+      <workItem from="1613355593798" duration="4224000" />
+      <workItem from="1613579601125" duration="829000" />
+      <workItem from="1614176966664" duration="4261000" />
+      <workItem from="1614188015882" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="wiiリモコンの校正用オブジェクトを追加するなどした">
       <created>1608054621011</created>
@@ -462,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613029951833</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="音声認識の最適化後">
+      <created>1613065119065</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1613065119065</updated>
+    </task>
+    <task id="LOCAL-00017" summary="音声認識の最適化後">
+      <created>1613065412745</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613065412745</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +518,8 @@
     <MESSAGE value="BrowserUIのリンクとアクションの分離前" />
     <MESSAGE value="スタートメニュー完成" />
     <MESSAGE value="音声認識の変更前" />
-    <option name="LAST_COMMIT_MESSAGE" value="音声認識の変更前" />
+    <MESSAGE value="音声認識の最適化後" />
+    <option name="LAST_COMMIT_MESSAGE" value="音声認識の最適化後" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

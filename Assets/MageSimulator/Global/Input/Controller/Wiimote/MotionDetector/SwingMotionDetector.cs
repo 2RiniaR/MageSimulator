@@ -1,5 +1,6 @@
 ﻿using UniRx;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace MageSimulator.Global.Input.Controller.Wiimote.MotionDetector
 {
@@ -14,27 +15,28 @@ namespace MageSimulator.Global.Input.Controller.Wiimote.MotionDetector
         public float finishPitchErrorLimit = 15f;
         public float finishYawErrorLimit = 15f;
         public float finishRollErrorLimit = 90f;
-        public float finishMarginTime = 0f;
+
+        /// <summary>
+        ///     モーション検知の最小間隔時間
+        /// </summary>
+        public float marginTime;
 
         private readonly BoolReactiveProperty _inCondition = new BoolReactiveProperty(false);
         private readonly AccelAverage _accelAverage = new AccelAverage();
-        private float _swingMarginTime = 0f;
+        private float _swingMarginTime;
 
         protected override void Start()
         {
+            _inCondition.Where(x => x).Subscribe(_ => Detect()).AddTo(this);
             base.Start();
-
-            _inCondition.Pairwise()
-                .Where(x => x.Previous ^ x.Current)
-                .Subscribe(_ => Detect())
-                .AddTo(this);
         }
 
         private void Update()
         {
             _accelAverage.Update(WiimoteDevice.GetAccelVector());
-            if (_accelAverage.GetMagnitude() > swingMagnitude)
-                _swingMarginTime = finishMarginTime;
+            var magnitude = _accelAverage.GetMagnitude();
+            if (magnitude > swingMagnitude)
+                _swingMarginTime = Mathf.Max(float.Epsilon, marginTime);
             _inCondition.Value = _swingMarginTime > 0f && InFinishCondition();
             _swingMarginTime = Mathf.Max(0f, _swingMarginTime - Time.deltaTime);
         }
